@@ -1,6 +1,6 @@
 'use client';
-import logoWhite from "../../../public/assets/img/logo/logo-white.png";
-import logoBlack from "../../../public/assets/img/logo/logo-black.png";
+import logoWhite from "../../../public/assets/img/new/logo.jpg";
+import logoBlack from "../../../public/assets/img/new/logo.jpg";
 import OffCanvasPanel from "@/components/offcanvas/OffCanvasPanel";
 import useStickyHeader from "../../hooks/useStickyHeader"
 import { ArrowSvg, ButtonBlurFilter } from "@/svg";

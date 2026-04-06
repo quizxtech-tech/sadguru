@@ -1,6 +1,6 @@
 import StartupAgencyVideoTextSlider from '../text-slider/StartupAgencyVideoTextSlider';
-import videoThumb from '../../../public/assets/img/home-12/video/st-video-thumb.jpg';
-import avaterImg from '../../../public/assets/img/home-04/avater/avater-1.jpg';
+import videoThumb from '../../../public/assets/img/new/downloadn.jpeg';
+import avaterImg from '../../../public/assets/img/new/download (1).jpeg';
 import { useVideoModal } from '@/provider/VideoProvider';
 import { QuoteIconFour, VideoPlayIcon } from '@/svg';
 import Image from 'next/image';

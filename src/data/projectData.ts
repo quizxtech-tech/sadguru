@@ -1,22 +1,22 @@
 
 import { projectsDT } from '@/types/project-d-t';
 //home main project
-import project1 from "../../public/assets/img/home-01/project/project-1.jpg"
-import project2 from "../../public/assets/img/home-01/project/project-2.jpg"
-import project3 from "../../public/assets/img/home-01/project/project-3.jpg"
-import project4 from "../../public/assets/img/home-01/project/project-4.jpg"
-import project5 from "../../public/assets/img/home-01/project/project-5.jpg"
-import project6 from "../../public/assets/img/home-01/project/project-6.jpg"
+import project1 from "../../public/assets/img/new/images (1).jpeg"
+import project2 from "../../public/assets/img/new/images (2).jpeg"
+import project3 from "../../public/assets/img/new/images (3).jpeg"
+import project4 from "../../public/assets/img/new/images (4).jpeg"
+import project5 from "../../public/assets/img/new/images (5).jpeg"
+import project6 from "../../public/assets/img/new/images (6).jpeg"
 //home 3 project image
 import project7 from "../../public/assets/img/home-03/project/project-1.jpg";
 import project8 from "../../public/assets/img/home-03/project/project-2.jpg";
 import project9 from "../../public/assets/img/home-03/project/project-3.jpg";
 
 //home 4 project image
-import project10 from "../../public/assets/img/home-04/project/project-4.jpg";
-import project11 from "../../public/assets/img/home-04/project/project-1.jpg";
-import project12 from "../../public/assets/img/home-04/project/project-3.jpg";
-import project13 from "../../public/assets/img/home-04/project/project-2.jpg";
+import project10 from "../../public/assets/img/new/images (7).jpeg";
+import project11 from "../../public/assets/img/new/images (8).jpeg";
+import project12 from "../../public/assets/img/new/images (9).jpeg";
+import project13 from "../../public/assets/img/new/download.jpeg";
 
 //home 5 project image
 import project14 from "../../public/assets/img/home-05/project/project-1.jpg";

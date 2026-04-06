@@ -1,14 +1,15 @@
 // Image imports with types
-import placeholder from '../../public/assets/img/home-01/funfact/funfact-placeholder.png';
-import one from '../../public/assets/img/home-01/funfact/funfact-1.png';
-import two from '../../public/assets/img/home-01/funfact/funfact-2.png';
-import three from '../../public/assets/img/home-01/funfact/funfact-3.png';
-import four from '../../public/assets/img/home-01/funfact/funfact-4.png';
-import five from '../../public/assets/img/home-01/funfact/funfact-5.png';
-import six from '../../public/assets/img/home-01/funfact/funfact-6.png';
-import seven from '../../public/assets/img/home-01/funfact/funfact-8.png';
-import eight from '../../public/assets/img/home-01/funfact/funfact-9.png';
+import one from '../../public/assets/img/new/h5-funfact-12.png';
+import two from '../../public/assets/img/new/h5-funfact-13.png';
+import three from '../../public/assets/img/new/h5-funfact-14.png';
+import four from '../../public/assets/img/new/h5-funfact-15.png';
+import five from '../../public/assets/img/new/images.jpeg';
+import six from '../../public/assets/img/new/images (1).jpeg';
+import seven from '../../public/assets/img/new/images (2).jpeg';
+import eight from '../../public/assets/img/new/images (3).jpeg';
+import placeholder from '../../public/assets/img/new/images (4).jpeg';
 import { Panel } from '@/types/custom-d-t';
+
 
 // Panel data
 const panelsData: Panel[] = [

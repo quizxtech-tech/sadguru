@@ -1,5 +1,5 @@
 'use client';
-import { animationParagraph, buttonBounceAnimation, charAnimation, fadeAnimation, funfactPanelAnimation, panelAnimation, servicePanelAnimation, textInvertAnim1, videoAnimation } from '@/hooks/useGsapAnimation';
+import { animationParagraph, buttonBounceAnimation, charAnimation, eyeAnimation, fadeAnimation, funfactPanelAnimation, panelAnimation, servicePanelAnimation, textInvertAnim1, videoAnimation } from '@/hooks/useGsapAnimation';
 import { bounceAnimation, textBounceAnimation } from '@/utils/titleAnimation';
 import HomeMainTestimonial from '@/components/testimonial/HomeMainTestimonial';
 import HomeMainTextSlider from '@/components/text-slider/HomeMainTextSlider';
@@ -48,6 +48,7 @@ const HomeMain = () => {
             panelAnimation();
             fadeAnimation();
             textInvertAnim1();
+            eyeAnimation();
         }, 100);
         return () => clearTimeout(timer);
     });
@@ -66,16 +67,16 @@ const HomeMain = () => {
                 <div id="smooth-content">
                     {/* Main Content Sections */}
                     <main>
-                        {/* <CorporateAgencyHero />
-                        <CreativeAgencyAbout />
+                        <CorporateAgencyHero />
+                        {/* <CreativeAgencyAbout /> */}
                         <StartupAgencyBanner />
                         <HomeMainService />
                         <StartupAgencyChoose />
                         <CreativeStudioProject />
                         <StartupAgencyVideo />
-                        <MobileApplicationTestimonial />
-                        <BlogMasonryMain /> */}
-                        <HomeMainHero />
+                        {/* <MobileApplicationTestimonial /> */}
+                        {/* <BlogMasonryMain /> */}
+                        {/* <HomeMainHero /> */}
                         <HomeMainAbout />
                         <HomeMainTextSlider />
                         <HomeMainVideo />

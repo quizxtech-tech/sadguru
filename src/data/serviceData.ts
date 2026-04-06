@@ -1,9 +1,9 @@
 
 import { BrandingIcon, BusinessConsultationIcon, BusinessGrowthIcon, ChartIcon, ExpertSupportIcon, HexagonIcon, ImageQualityIcon, LayersIcon, LightningBoltIcon, ProfessionalBusinessIcon, ReliableWxpertIcon, ShieldIcon, ShoppingCartIcon, UIUXDesignIcon, WebDevelopmentIcon } from "@/svg/ServiesIcons";
-import service1 from "../../public/assets/img/home-01/service/service-1.jpg";
-import service2 from "../../public/assets/img/home-01/service/service-2.jpg";
-import service3 from "../../public/assets/img/home-01/service/service-3.jpg";
-import service4 from "../../public/assets/img/home-01/service/service-4.jpg";
+import service1 from "../../public/assets/img/new/images (3).jpeg";
+import service2 from "../../public/assets/img/new/images (4).jpeg";
+import service3 from "../../public/assets/img/new/images (5).jpeg";
+import service4 from "../../public/assets/img/new/images (6).jpeg";
 import { servicesDT } from "@/types/service-d-t";
 //home-5 design agency light service image
 import service5 from '../../public/assets/img/home-05/service/service-1.jpg';
@@ -410,7 +410,7 @@ const servicesData: servicesDT[] = [
     {
         id: 43,
         title: 'Branding',
-        spacingCls:"mb-200",
+        spacingCls: "mb-200",
         text: [
             'Strong branding sets your startup apart, signaling quality and professionalism.',
             'It builds trust with your audience, making you stand out in a crowded market.'
@@ -428,7 +428,7 @@ const servicesData: servicesDT[] = [
     {
         id: 44,
         title: 'Digital Design',
-        spacingCls:"mb-200",
+        spacingCls: "mb-200",
         text: [
             'A process of assumption & validation with a goal of taking into account all the necessary variables, which are always custom and are to be uncovered',
             'Every business has digital potential, and we are here to help you leverage that potential.'
@@ -448,7 +448,7 @@ const servicesData: servicesDT[] = [
     {
         id: 45,
         title: 'Marketing Assets',
-        spacingCls:"mb-200",
+        spacingCls: "mb-200",
         text: [
             'Marketing strategy is proudly responsible for the half of a campaign\'s success, another half relies solely on its implementation.',
             'We focus on creating visuals that communicate your value and engage your audience.'
@@ -467,7 +467,7 @@ const servicesData: servicesDT[] = [
     {
         id: 46,
         title: 'Development',
-        spacingCls:"",
+        spacingCls: "",
         text: [
             'Efficiency and scalability. The two factors which any decision gets filtered out with - programming language, framework, library, each line of code, and server side'
         ],

@@ -1,5 +1,5 @@
-import shape from '../../../public/assets/img/home-12/testimonial/testimonial-shape.png';
-import thumb from '../../../public/assets/img/home-12/chose/choose-us-thumb.jpg';
+import shape from '../../../public/assets/img/new/images (9).jpeg';
+import thumb from '../../../public/assets/img/new/download.jpeg';
 import { ArrowThirteen } from '@/svg';
 import Image from 'next/image';
 import Link from 'next/link';
