@@ -51,8 +51,8 @@ const mobileMenuData: MenuItem[] = [
     },
     {
         id: 4,
-        title: "Quotation",
-        link: "#",
+        title: "Product",
+        link: "/shop-modern",
         megaMenu: false,
     },
     {

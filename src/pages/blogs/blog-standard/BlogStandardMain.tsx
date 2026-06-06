@@ -3,14 +3,14 @@ import BlogStandardBreadcrumb from '@/components/breadcurmb/BlogStandardBreadCru
 import BlogSidebarSearchInput from '@/components/forms/BlogSidebarSearchInput';
 import BlogSidebarAuthorInfo from '@/components/blog/BlogSidebarAuthorInfo';
 import BlogSidebarCategory from '@/components/category/BlogSidebarCategory';
-import CreativeStudioFooter from '@/layouts/footers/CreativeStudioFooter';
+import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 import BlogStandardPost from '@/components/blog/BlogStandardPost';
 import BasicPagination from '@/components/blog/BasicPagination';
 import BlogSidebarPost from '@/components/blog/BlogSidebarPost';
 import BlogSidebarTags from '@/components/blog/BlogSidebarTags';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import HomeMainHeader from '@/layouts/headers/HomeMainHeader';
 import { fadeAnimation } from '@/hooks/useGsapAnimation';
 import useScrollSmooth from '@/hooks/useScrollSmooth';
 import { useGSAP } from '@gsap/react';
@@ -37,7 +37,7 @@ const BlogStandardMain = () => {
 
             {/* Global Components */}
             <BackToTop />
-            <InnerPageHeader />
+            <HomeMainHeader />
 
             <div id="smooth-wrapper">
                 <div id="smooth-content">
@@ -89,7 +89,7 @@ const BlogStandardMain = () => {
                             </div>
                         </section>
                     </main>
-                    <CreativeStudioFooter buttonCls="blog-footer-style" />
+                    <HomeMainFooter />
                 </div>
             </div>
         </>

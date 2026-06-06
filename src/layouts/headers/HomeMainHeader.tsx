@@ -1,6 +1,6 @@
 'use client';
-import logoWhite from "../../../public/assets/img/new/logo.jpg";
-import logoBlack from "../../../public/assets/img/new/logo.jpg";
+import logoWhite from "../../../public/assets/img/new/logo/SSA full logo.png";
+import logoBlack from "../../../public/assets/img/new/logo/SSA full logo.png";
 import OffCanvasPanel from "@/components/offcanvas/OffCanvasPanel";
 import useStickyHeader from "../../hooks/useStickyHeader"
 import { ArrowSvg, ButtonBlurFilter } from "@/svg";
@@ -44,17 +44,6 @@ const HomeMainHeader = () => {
                                     <Link href="#">De</Link>
                                 </div> */}
                                 <div className="tp-header-btn-box ml-25 d-none d-md-flex">
-                                    <Link href="/portfolio-col-2-light" className="tp-btn-black btn-red-bg">
-                                        <span className="tp-btn-black-filter-blur">
-                                            <ButtonBlurFilter filterId="buttonFilter" />
-                                        </span>
-                                        <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: "url(#buttonFilter" }}>
-                                            <span className="tp-btn-black-text">Get a Free Quote</span>
-                                            <span className="tp-btn-black-circle">
-                                                <ArrowSvg />
-                                            </span>
-                                        </span>
-                                    </Link>
                                 </div>
                                 <div className="tp-header-bar ml-20 d-xl-none">
                                     <button onClick={() => setOpenOffCanvas(true)} className="tp-offcanvas-open-btn">

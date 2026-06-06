@@ -1,4 +1,4 @@
-import logoBlack from '../../../public/assets/img/logo/logo-black.png';
+import logoBlack from '../../../public/assets/img/new/logo/SSA full logo.png';
 import OffCanvasPanel from '@/components/offcanvas/OffCanvasPanel';
 import useStickyHeader from '@/hooks/useStickyHeader';
 import NavMenus from '../subComponents/NavMenus';

@@ -1,12 +1,12 @@
 "use client"
-import CreativeAgencyFooter from '@/layouts/footers/CreativeAgencyFooter';
+import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 import ContactUsForm from '@/components/contacts/ContactUsForm';
 import ContactUsAbout from '@/components/about/ContactUsAbout';
 import ContactUsArea from '@/components/contacts/ContactUsArea';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import ContactUsHero from '@/components/contacts/ContactUsHero';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import HomeMainHeader from '@/layouts/headers/HomeMainHeader';
 import { fadeAnimation } from '@/hooks/useGsapAnimation';
 import useScrollSmooth from '@/hooks/useScrollSmooth';
 import { useGSAP } from '@gsap/react';
@@ -33,7 +33,7 @@ const ContactUsMain = () => {
 
             {/* Global Components */}
             <BackToTop />
-            <InnerPageHeader />
+            <HomeMainHeader />
 
             <div id="smooth-wrapper">
                 <div id="smooth-content">
@@ -44,7 +44,7 @@ const ContactUsMain = () => {
                         <ContactUsAbout />
                         <ContactUsArea />
                     </main>
-                    <CreativeAgencyFooter bgColor="#1B1B1D" />
+                    <HomeMainFooter />
                 </div>
             </div>
         </>

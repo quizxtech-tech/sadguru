@@ -1,6 +1,6 @@
 import circleAvater from '../../../public/assets/img/home-09/hero/funfact-circle-shape.png';
 import funfactBg from '../../../public/assets/img/home-09/hero/funfact-bg-shape.png';
-import bgShape from '../../../public/assets/img/home-09/hero/hero-bg-shape.png';
+import bgShape from '../../../public/assets/img/new/home_hero.png';
 import avater from '../../../public/assets/img/home-09/avater/avater-1.png';
 import AnimatedCounter from '../counter/AnimatedCounter';
 import { ArrowSix, ArrowSvg } from '@/svg/ArrowIcons';

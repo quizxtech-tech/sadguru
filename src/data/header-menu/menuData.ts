@@ -37,9 +37,9 @@ const headerMenuData: MenuItem[] = [
     active: false,
     megaMenu: false,
     children: false,
-    title: "Quotation",
+    title: "Product",
     pluseIncon: false,
-    link: "#",
+    link: "/shop-modern",
   },
   {
     id: 5,

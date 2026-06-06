@@ -8,8 +8,8 @@ import { useCursorAndBackground } from '@/hooks/useCursorAndBackground';
 import useScrollSmooth from '@/hooks/useScrollSmooth';
 
 // Layout Components
-import ShopModernHeader from '@/layouts/headers/ShopModernHeader';
-import ShopModernFooter from '@/layouts/footers/ShopModernFooter';
+import HomeMainHeader from '@/layouts/headers/HomeMainHeader';
+import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 
 // UI Components
@@ -62,7 +62,7 @@ const ShopModernMain = () => {
             <SearchArea />
             <ProductQuickViewModal />
             <ShopModernSubscribePopup />
-            <ShopModernHeader />
+            <HomeMainHeader />
 
             <div id="smooth-wrapper">
                 <div id="smooth-content">
@@ -80,7 +80,7 @@ const ShopModernMain = () => {
                         <ShopModernFeature />
                         <ShopModernInstagram />
                     </main>
-                    <ShopModernFooter />
+                    <HomeMainFooter />
                 </div>
             </div>
 

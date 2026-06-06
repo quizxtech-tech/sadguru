@@ -6,7 +6,7 @@ import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import AboutUsService from '@/components/service/AboutUsService';
 import AboutUsHero from '@/components/hero-banner/AboutUsHero';
 import AboutUsBanner from '@/components/banner/AboutUsBanner';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import HomeMainHeader from '@/layouts/headers/HomeMainHeader';
 import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import HomeMainAbout from '@/components/about/HomeMainAbout';
 import { textBounceAnimation } from '@/utils/titleAnimation';
@@ -42,7 +42,7 @@ const AboutUsLightMain = () => {
             </div>
             {/* Global Components */}
             <BackToTop />
-            <InnerPageHeader />
+            <HomeMainHeader />
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
