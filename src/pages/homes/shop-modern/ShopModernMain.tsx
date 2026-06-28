@@ -60,8 +60,6 @@ const ShopModernMain = () => {
             <BackToTop />
             <CartOffcanvas />
             <SearchArea />
-            <ProductQuickViewModal />
-            <ShopModernSubscribePopup />
             <HomeMainHeader />
 
             <div id="smooth-wrapper">
@@ -75,7 +73,7 @@ const ShopModernMain = () => {
                         <ShopModernAbout />
                         <ShopModernProductTwo />
                         <ShopModernBanner />
-                        <ShopModernNewsletter />
+                        {/* <ShopModernNewsletter /> */}
                         <ShopModernTestimonial />
                         <ShopModernFeature />
                         <ShopModernInstagram />

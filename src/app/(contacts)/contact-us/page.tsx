@@ -1,14 +1,14 @@
-import AboutUsLightMain from '@/pages/about/about-us/AboutUsLightMain';
+import ContactUsMain from '@/pages/contacts/contact-us/ContactUsMain';
 import { Metadata } from 'next';
 import React from 'react';
 
 export const metadata: Metadata = {
-    title: "Agntix - About Us light",
+    title: "Sadguru Sales Agency - Contact Us",
 };
 
 const page = () => {
     return (
-        <AboutUsLightMain />
+        <ContactUsMain />
     );
 };
 

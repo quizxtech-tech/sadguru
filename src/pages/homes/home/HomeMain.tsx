@@ -80,7 +80,7 @@ const HomeMain = () => {
                         <HomeMainAbout />
                         <HomeMainTextSlider />
                         <HomeMainVideo />
-                        <HomeMainProject />
+                        {/* <HomeMainProject /> */}
                         <HomeMainFunFact />
                         <HomeMainWork />
                         <HomeMainTestimonial />

@@ -1332,7 +1332,7 @@
             font-size: 80px;
         }
         & span{
-            color: var(--tp-common-yellow-green);
+            color: var(--tp-common-primary);
         }
         &.fs-100{
             font-size: 100px;
@@ -1703,7 +1703,7 @@
     width: 74px;
     height: 74px;
     display: block;
-    background: var(--tp-common-yellow-green);
+    background: var(--tp-common-primary);
     margin: 0 5px;
     border-radius: 50%;
     @media #{$xl}{

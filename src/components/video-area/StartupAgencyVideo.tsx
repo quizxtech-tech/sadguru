@@ -18,21 +18,21 @@ const StartupAgencyVideo = () => {
                         <p>
                             <span className="creative-choose-text-top">
                                 <QuoteIconFour />
-                                Agntix created
+                                Sadguru Sales Agency
                             </span>
                             <br />
-                            <span className="creative-choose-text-middle">something better then I ever</span>
+                            <span className="creative-choose-text-middle">delivered exactly what our</span>
                             <br />
-                            <span className="creative-choose-text-bottom">could have imagined</span>
+                            <span className="creative-choose-text-bottom">business needed — quality, on time</span>
                         </p>
 
                         <div className="creative-choose-avater-box d-inline-flex align-items-center">
                             <div className="creative-choose-avater">
-                                <Image src={avaterImg} alt="Testimonial author avatar" />
+                                <Image src={avaterImg} alt="Customer avatar" />
                             </div>
                             <div className="creative-choose-avater-info">
-                                <h4>Hear from Dang</h4>
-                                <span>Co-Founder of Agntix</span>
+                                <h4>Ramesh Patel</h4>
+                                <span>Factory Owner, Bhuj</span>
                             </div>
                         </div>
                     </div>

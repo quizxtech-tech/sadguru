@@ -5,28 +5,26 @@ import { Autoplay, FreeMode } from "swiper/modules";
 
 // Slide data array
 const slideData = [
-  "UI Design",
-  "Design Agency",
-  "Strategy",
-  "Digital Solution",
-  "Business Growth",
-  "Development",
-  "IT Company",
-  "SEO Agency",
-  "Consulting",
-  "Branding",
-  "Lifetime Update",
-  "UI Design",
-  "Design Agency",
-  "Strategy",
-  "Digital Solution",
-  "Business Growth",
-  "Strategy",
-  "Digital Solution",
-  "Business Growth",
-  "Development",
-  "IT Company",
-  "SEO Agency"
+  "Industrial Chemicals",
+  "Lubricants & Oils",
+  "Bhuj, Kutch",
+  "Bulk Supply",
+  "25+ Years",
+  "Manufacturing",
+  "Automotive",
+  "Quality Products",
+  "Industrial Chemicals",
+  "Lubricants & Oils",
+  "Bhuj, Kutch",
+  "Bulk Supply",
+  "25+ Years",
+  "Manufacturing",
+  "Automotive",
+  "Quality Products",
+  "Expert Guidance",
+  "Reliable Service",
+  "Trusted Supplier",
+  "Competitive Pricing"
 ];
 
 const HomeMainTextSlider = (

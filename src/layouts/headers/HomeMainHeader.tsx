@@ -8,15 +8,18 @@ import NavMenus from "../subComponents/NavMenus";
 import { useState } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const HomeMainHeader = () => {
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
     const isSticky = useStickyHeader(20);
+    const pathname = usePathname();
+    const isHome = pathname === '/';
 
     return (
         <>
             <div className={`tp-header-area tp-header-ptb tp-header-blur sticky-white-bg
-         header-transparent  tp-header-border  ${isSticky ? 'header-sticky' : ''}`}>
+         header-transparent  tp-header-border  ${isSticky ? 'header-sticky' : ''} ${isHome ? 'is-home-header' : ''}`}>
                 <div className="container container-1750 pt-40 pb-40">
                     <div className="row align-items-center ">
                         <div className="col-xl-2 col-lg-6 col-6">
@@ -30,7 +33,7 @@ const HomeMainHeader = () => {
                         {/* Rest of your header content */}
                         <div className="col-xl-7 d-none d-xl-block">
                             <div className="tp-header-box text-center">
-                            <div className="tp-header-9-menu tp-header-dropdown dropdown-white-bg d-none d-xl-block">
+                                <div className="tp-header-9-menu tp-header-dropdown dropdown-white-bg d-none d-xl-block">
                                     <nav className="tp-mobile-menu-active">
                                         <NavMenus />
                                     </nav>

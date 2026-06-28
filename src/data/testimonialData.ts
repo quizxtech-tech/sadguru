@@ -32,6 +32,62 @@ import userImg7 from "../../public/assets/img/product/product-details-main/desc/
 const testimonialsData: TestimonialDT[] = [
     {
         id: 1,
+        quote: "“Sadguru Sales Agency has been our go-to supplier for industrial chemicals for over 10 years. Always genuine products, always on time.”",
+        name: "Ramesh Mehta",
+        position: "Factory Manager, Bhuj",
+        avatar: avaterOne,
+        style: "white-style"
+    },
+    {
+        id: 2,
+        quote: "“Reliable service and competitive pricing. We switched to Sadguru Sales Agency 5 years ago and have never looked back.”",
+        name: "Suresh Patel",
+        position: "Operations Head, Kutch Industrial Unit",
+        avatar: avaterTwo,
+        style: "green-style"
+    },
+    {
+        id: 3,
+        quote: "“Their team knows exactly what lubricants our machinery needs. Expert guidance, every single time.”",
+        name: "Kiran Joshi",
+        position: "Maintenance Engineer, Gandhidham",
+        avatar: avaterThree,
+        style: "white-style"
+    },
+    {
+        id: 4,
+        quote: "“Best chemical supplier in Bhuj. We have been buying from them since 2008 and the quality and service are always consistent.”",
+        name: "Dinesh Shah",
+        position: "Owner, Auto Workshop, Bhuj",
+        avatar: avaterFour,
+        style: "green-style"
+    },
+    {
+        id: 5,
+        quote: "“Sadguru Sales Agency offers bulk pricing that is hard to beat. Great for our manufacturing needs.”",
+        name: "Priya Rathod",
+        position: "Purchase Manager, Kutch Textiles",
+        avatar: avaterFive,
+        style: "white-style"
+    },
+    {
+        id: 6,
+        quote: "“Honest and transparent. They always recommend the right product for the right application — no over-selling.”",
+        name: "Manoj Trivedi",
+        position: "CEO, Bhuj Engineering Works",
+        avatar: avaterSix,
+        style: "green-style"
+    },
+    {
+        id: 7,
+        quote: "“Timely delivery, quality products, and a team that actually picks up the phone. Sadguru Sales Agency is a class apart.”",
+        name: "Harish Bhatt",
+        position: "Fleet Manager, Transport Company, Bhuj",
+        avatar: avaterOne,
+        style: "white-style"
+    },
+    {
+        id: 1,
         quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Albert Juan",
         position: "CEO & Founder, Archin Studio",

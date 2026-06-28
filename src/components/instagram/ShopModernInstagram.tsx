@@ -1,10 +1,10 @@
-import thumb1 from "../../../public/assets/img/product/instragram/instragram-thumb-1.jpg";
-import thumb2 from "../../../public/assets/img/product/instragram/instragram-thumb-2.jpg";
-import thumb3 from "../../../public/assets/img/product/instragram/instragram-thumb-3.jpg";
-import thumb4 from "../../../public/assets/img/product/instragram/instragram-thumb-4.jpg";
-import thumb5 from "../../../public/assets/img/product/instragram/instragram-thumb-5.jpg";
-import thumb6 from "../../../public/assets/img/product/instragram/instragram-thumb-6.jpg";
-import thumb7 from "../../../public/assets/img/product/instragram/instragram-thumb-7.jpg";
+import thumb1 from "../../../public/assets/img/new/product/total15w.webp";
+import thumb2 from "../../../public/assets/img/new/product/val15w.jpg";
+import thumb3 from "../../../public/assets/img/new/product/elf15w40.jpg";
+import thumb4 from "../../../public/assets/img/new/product/total-9000.webp";
+import thumb5 from "../../../public/assets/img/new/product/val15wblue.webp";
+import thumb6 from "../../../public/assets/img/new/product/elf5w.webp";
+import thumb7 from "../../../public/assets/img/new/product/total7000.webp";
 import PhotoProviderWrapper from "../shared/PhotoProviderWrapper";
 import { InstagramThree } from '@/svg/social-icons/Instagram';
 import { Instagram_swiper_params } from "@/constants/swiper";
@@ -30,8 +30,8 @@ const ShopModernInstagram = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="tp-product-instagram-heading text-center mb-50">
-                            <h4 className="tp-shop-section-title">Shop Gram</h4>
-                            <p>{`Here's`} some of our most popular products people are in love with.</p>
+                            <h4 className="tp-shop-section-title">Our Products</h4>
+                            <p>A glimpse of the industrial chemicals and lubricants we supply across Bhuj and Kutch.</p>
                         </div>
                     </div>
                 </div>
@@ -46,9 +46,9 @@ const ShopModernInstagram = () => {
                             >
                                 {instagramPosts.map((post) => (
                                     <SwiperSlide key={post.id}>
-                                        <div className="tp-shop-instagram-item">
+                                        <div className="tp-shop-instagram-item" style={{ padding: "10px" }}>
                                             <PhotoView src={post.image.src}>
-                                                <Image priority style={{ width: "100%", height: "auto" }} src={post.image} alt={post.alt} />
+                                                <Image priority style={{ width: "100%", height: "280px", objectFit: "contain", backgroundColor: "#fff", padding: "15px", borderRadius: "8px", border: "1px solid rgba(77, 61, 48, 0.12)" }} src={post.image} alt={post.alt} />
                                             </PhotoView>
                                             <div className="tp-shop-instagram-icon">
                                                 <InstagramThree />

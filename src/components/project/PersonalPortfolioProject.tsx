@@ -15,7 +15,7 @@ const PersonalPortfolioProject = () => {
                     <div className="col-xxl-3 col-xl-12 col-md-4">
                         <div className="pp-project-sub-heading mb-70 tp_fade_anim" data-delay=".3">
                             <span className="tp-section-subtitle-clash clash-subtitle-pos body-ff">
-                                Work Showcase
+                                Product Showcase
                                 <i><ArrowTwo /></i>
                             </span>
                         </div>
@@ -24,7 +24,7 @@ const PersonalPortfolioProject = () => {
                     <div className="col-xxl-6 col-xl-6 col-md-8">
                         <div className="pp-project-heading mb-70 tp_fade_anim" data-delay=".5">
                             <h3 className="tp-section-title-teko fs-120">
-                                Discover my <br />Creative Expertise
+                                Our Products &amp; <br />Supply Categories
                             </h3>
                         </div>
                     </div>

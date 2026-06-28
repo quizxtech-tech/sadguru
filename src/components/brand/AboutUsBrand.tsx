@@ -5,7 +5,7 @@ import React from 'react';
 const AboutUsBrand: React.FC = () => {
     // Array of slides data 
     const slides = Array(6).fill({
-        title: "About Us",
+        title: "Sadguru Sales Agency",
         className: "ar-about-us-4-text-title"
     });
 

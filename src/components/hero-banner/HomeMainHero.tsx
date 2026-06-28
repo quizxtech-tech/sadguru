@@ -43,7 +43,7 @@ const HomeMainHero = () => {
                                     </div>
                                     <p>“The depth of exploration and quality of the work was great”</p>
                                     <div className="tp-hero-link text-end">
-                                        <Link href="/about-us-light">More</Link>
+                                        <Link href="/about-us">More</Link>
                                     </div>
                                 </div>
                             </div>

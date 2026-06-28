@@ -9,7 +9,7 @@ const ShopModernCategoryCard = ({ item }: { item: productCategoryDT }) => {
     return (
         <>
             <div className="tp-shop-category-2-item p-relative mb-15 fix">
-                <Link href={item.link}>
+                <Link href="#" onClick={(e) => e.preventDefault()}>
                     <div className="tp-shop-category-2-thumb">
                         <Image
                             style={{ width: "100%", height: "auto" }}

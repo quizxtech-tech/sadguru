@@ -12,9 +12,8 @@
     }
     &-thumb {
         & img{
-            @media #{$xs}{
-                width: 100%;
-            }
+            width: 100%;
+            height: auto;
         }
     }
     &-item{

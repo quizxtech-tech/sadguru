@@ -8,7 +8,7 @@ const ShopModernCopyright = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <div className="tp-footer-shop-copyright-text pl-100">
-                        <p className="space">©Agntix | {getCurrentYear()}</p>
+                        <p className="space">©Sadguru Sales Agency | {getCurrentYear()}</p>
                     </div>
                 </div>
                 <div className="col-lg-6">

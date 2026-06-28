@@ -16,8 +16,8 @@ const panelsData: Panel[] = [
   {
     id: 1,
     style: 'tp-funfact-green-wrap',
-    subtitle: '( Nice! )',
-    title: 'projects <br> completed <br> in 24 countries',
+    subtitle: '( Est. 2001 )',
+    title: 'Years of trusted <br> service <br> in Kutch',
     funfactNumber: "right",
     spacingCls: "",
     images: [
@@ -37,7 +37,7 @@ const panelsData: Panel[] = [
       { src: placeholder, delay: 1.7 },
     ],
     bigImage: { src: six, delay: 0.7 },
-    number: '106',
+    number: '25+',
   },
   {
     id: 2,
@@ -63,7 +63,7 @@ const panelsData: Panel[] = [
       { src: five, delay: 1.7 },
     ],
     bigImage: { src: seven, delay: 0.7 },
-    number: '96',
+    number: '95%',
   },
   {
     id: 3,

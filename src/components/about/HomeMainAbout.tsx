@@ -1,6 +1,5 @@
 import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png"
-import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg"
-import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png"
+import aboutImgOne from "../../../public/assets/img/new/ww1.png"
 import HomeMainCounter from "../counter/HomeMainCounter";
 import Image from "next/image";
 import React from 'react';
@@ -29,8 +28,10 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                             <div className="tp-about-wrap">
                                 <div className="tp-about-text tp_fade_anim">
                                     <p>
-                                        An independent web design and branding agency in Manchester set up in 2010 who care,
-                                        build relationships, have industry experience, and win awards.
+                                        Sadguru Sales Agency is one of the trusted names in industrial chemicals, lubricants,
+                                        and related products in Bhuj, Kutch. Established in 2001, we have been serving
+                                        businesses, workshops, automobile service centers, and commercial customers for
+                                        more than two decades.
                                     </p>
                                 </div>
                                 <div className="row">
@@ -42,10 +43,8 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                     <div className="col-xl-7 col-lg-8 col-md-7">
                                         <div className="tp-about-funcact-wrap">
                                             <div className="tp-about-avater-info">
-                                                <Image className="tp_fade_anim" data-delay=".3"
-                                                    data-fade-from="right" src={aboutAvater} alt="about-avater" />
                                                 <div className="tp_text_anim">
-                                                    <p>Driven by a passion for innovation, we specialize in <br /> delivering top-quality design solutions</p>
+                                                    <p>With a strong focus on quality products and long-term customer <br /> relationships — your trusted local supplier since 2001.</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}

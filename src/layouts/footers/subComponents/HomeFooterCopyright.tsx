@@ -22,7 +22,7 @@ const HomeFooterCopyright = ({ bgColor }: { bgColor?: string }) => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tp-copyright-left text-center text-md-start">
-                                <span>©{getCurrentYear()} Agntix Design Studio.</span>
+                                <span>©{getCurrentYear()} Sadguru Sales Agency. All rights reserved.</span>
                             </div>
                         </div>
                         <div className="col-md-6">

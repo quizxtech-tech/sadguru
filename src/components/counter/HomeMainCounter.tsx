@@ -4,15 +4,15 @@ import React from 'react';
 const counter_data = [
   {
     id: 1,
-    title: "Clients Satisfied and\nRepeating",
-    count: 98,
+    title: "Happy Clients &\nRepeat Customers",
+    count: 95,
     suffix: '%',
     dataDelay:".3"
   },
   {
     id: 2,
-    title: "Projects Completed in\n24 Countries",
-    count: 125,
+    title: "Years of Industry\nExperience",
+    count: 25,
     suffix: '+',
     dataDelay:".5"
   },

@@ -34,7 +34,7 @@ const CreativeStudioHeader = () => {
                             <div className="col-xl-2 col-lg-6 col-md-6 col-6">
                                 <div className="tp-header-right d-flex align-items-center justify-content-end">
                                     <div className="tp-header-btn-box">
-                                        <Link href="/contact-us-light" className="tp-btn-black btn-green-light-bg">
+                                        <Link href="/contact-us" className="tp-btn-black btn-green-light-bg">
                                             <span className="tp-btn-black-filter-blur">
                                                 <ButtonBlurFilter filterId="buttonFilter" />
                                             </span>

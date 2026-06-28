@@ -8,9 +8,18 @@ interface Slide {
 
 const ShopModernTextSlider = ({ varientClass = "shop-text-slider-style" }) => {
     // Data for the slides
-    const slides: Slide[] = Array(10).fill({
-        content: "Free Shipping for all orders over $ 500"
-    });
+    const slides: Slide[] = [
+        { content: "Quality Chemicals" },
+        { content: "Premium Lubricants" },
+        { content: "Trusted Since 2001" },
+        { content: "Bhuj, Kutch" },
+        { content: "Reliable Supply" },
+        { content: "Expert Guidance" },
+        { content: "Industrial Solvents" },
+        { content: "Sadguru Sales" },
+        { content: "Fast Delivery" },
+        { content: "Bulk Orders" }
+    ];
 
     return (
         <div className={`shop-text-slider-area ${varientClass}`}>
@@ -41,7 +50,7 @@ const ShopModernTextSlider = ({ varientClass = "shop-text-slider-style" }) => {
                     {slides.map((slide, index) => (
                         <SwiperSlide key={`text-slide-${index}`}>
                             <div className="shop-text-slider-item">
-                                <span>{slide.content}</span>
+                                <span style={{ whiteSpace: "nowrap" }}>{slide.content}</span>
                             </div>
                         </SwiperSlide>
                     ))}

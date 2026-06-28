@@ -1,9 +1,9 @@
 
 import { BrandingIcon, BusinessConsultationIcon, BusinessGrowthIcon, ChartIcon, ExpertSupportIcon, HexagonIcon, ImageQualityIcon, LayersIcon, LightningBoltIcon, ProfessionalBusinessIcon, ReliableWxpertIcon, ShieldIcon, ShoppingCartIcon, UIUXDesignIcon, WebDevelopmentIcon } from "@/svg/ServiesIcons";
-import service1 from "../../public/assets/img/new/images (3).jpeg";
-import service2 from "../../public/assets/img/new/images (4).jpeg";
-import service3 from "../../public/assets/img/new/images (5).jpeg";
-import service4 from "../../public/assets/img/new/images (6).jpeg";
+import service1 from "../../public/assets/img/new/f1.png";
+import service2 from "../../public/assets/img/new/f2.png";
+import service3 from "../../public/assets/img/new/f3.png";
+import service4 from "../../public/assets/img/new/f4.png";
 import { servicesDT } from "@/types/service-d-t";
 //home-5 design agency light service image
 import service5 from '../../public/assets/img/home-05/service/service-1.jpg';
@@ -42,34 +42,34 @@ const servicesData: servicesDT[] = [
     //Home main services data start
     {
         id: 1,
-        title: "Web Design",
+        title: "Industrial Chemicals",
         image: service1,
-        description: "Whether you need stunning visuals for your website, captivating graphics for your marketing materials, or innovative UI/UX designs for your app, our team of experts is here to turn your vision into reality.",
-        categories: ["UX Design", "User Testing", "Motion Design", "Product Prototype"],
+        description: "We supply a wide range of industrial chemicals suitable for manufacturing, processing, maintenance, and commercial applications across Bhuj and Kutch.",
+        categories: ["Industrial Processing", "Manufacturing", "Cleaning & Maintenance", "Commercial Use"],
         link: "/service-details-light",
     },
     {
         id: 2,
-        title: "Product Design",
+        title: "Lubricants & Oils",
         image: service2,
-        description: "Our product design services focus on creating intuitive and aesthetically pleasing products that resonate with your audience and stand out in the market.",
-        categories: ["UX Design", "User Testing", "Product Prototype", "Mobile UI", "Software UI design", "Web app design"],
+        description: "Quality lubricants designed for efficient machinery performance and long-term equipment protection. Suitable for automotive, industrial, and heavy equipment applications.",
+        categories: ["Industrial Machinery", "Automotive Workshops", "Heavy Equipment", "Commercial Vehicles"],
         link: "/service-details-light",
     },
     {
         id: 3,
-        title: "Web Development",
+        title: "Bulk Supply",
         image: service3,
-        description: "From website development and e-commerce platforms to custom software and mobile apps, our development team has the expertise to bring your ideas to life.",
-        categories: ["UX Design", "Frontend", "Backend", "E-commerce", "No Code / Low Code"],
+        description: "We handle bulk orders efficiently, ensuring timely product availability and supply for manufacturing units, industrial plants, and commercial enterprises across the region.",
+        categories: ["Bulk Orders", "Timely Delivery", "Competitive Pricing", "Reliable Sourcing"],
         link: "/service-details-light",
     },
     {
         id: 4,
-        title: "Branding",
+        title: "Expert Guidance",
         image: service4,
-        description: "It's the core of your company's identity. It guides all business decisions, ensuring a consistent and impactful presence in the market.",
-        categories: ["Research & Insights", "Unique Ways", "Value Proposition", "Naming", "Verbal Identity"],
+        description: "With over 25 years of industry experience, our team provides professional guidance to help customers select the right chemicals and lubricants for their specific requirements.",
+        categories: ["Product Recommendations", "Industry Knowledge", "Trusted Suppliers", "Quality Assurance"],
         link: "/service-details-light",
     },
     //Home main services data end
@@ -101,20 +101,20 @@ const servicesData: servicesDT[] = [
     //Home two services data end
     {
         id: 9,
-        title: "Branding",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
+        title: "Industrial Chemicals",
+        categories: ["Manufacturing", "Processing", "Cleaning & Maintenance", "Commercial Applications", "Workshop Use"],
         link: "/service-details-2-light",
     },
     {
         id: 10,
-        title: "Identity",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
+        title: "Lubricants & Oils",
+        categories: ["Industrial Machinery", "Automotive Workshops", "Heavy Equipment", "Manufacturing Plants", "Commercial Vehicles"],
         link: "/service-details-2-light",
     },
     {
         id: 11,
-        title: "Impact",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
+        title: "Bulk Supply",
+        categories: ["Competitive Pricing", "Timely Delivery", "Reliable Sourcing", "Quality Assurance", "Expert Guidance"],
         link: "/service-details-2-light",
     },
     // home five design agency light data start

@@ -40,19 +40,19 @@ const mobileMenuData: MenuItem[] = [
     {
         id: 2,
         title: "About Us",
-        link: "/about-us-light",
+        link: "/about-us",
         megaMenu: false,
     },
     {
         id: 3,
         title: "Contact Us",
-        link: "/contact-us-light",
+        link: "/contact-us",
         megaMenu: false,
     },
     {
         id: 4,
         title: "Product",
-        link: "/shop-modern",
+        link: "/product",
         megaMenu: false,
     },
     {

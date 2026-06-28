@@ -14,6 +14,7 @@ import { ImageDT } from '@/types/custom-d-t';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import siteConfig from '@/config/admin';
 
 const galleryImages: ImageDT[] = [
     { id: 1, imgSrc: offcanvas1 },
@@ -49,8 +50,8 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                     </div>
                     <div className="tp-offcanvas-main">
                         <div className="tp-offcanvas-content d-none d-xl-block">
-                            <h3 className="tp-offcanvas-title">Hello There!</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                            <h3 className="tp-offcanvas-title">Sadguru Sales Agency</h3>
+                            <p>Your Trusted Chemical & Lubricant Supplier in Kutch since 2001.</p>
                         </div>
                         <div className="tp-offcanvas-menu d-xl-none">
                             <nav><MainMobileMenu /></nav>
@@ -73,9 +74,9 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                         <div className="tp-offcanvas-contact">
                             <h3 className="tp-offcanvas-title sm">Information</h3>
                             <ul>
-                                <li><Link href="tel:1245654">+ 4 20 7700 1007</Link></li>
-                                <li><Link href="mailto:hello@diego.com">hello@diego.com</Link></li>
-                                <li><Link href="#">Avenue de Roma 158b, Lisboa</Link></li>
+                                <li><Link href={`tel:${siteConfig.contact.phone.replace(/[^+\d]/g, '')}`}>{siteConfig.contact.phone}</Link></li>
+                                <li><Link href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</Link></li>
+                                <li><Link href={siteConfig.contact.mapLink} target="_blank">Hem Complex, Madhapar Highway, Bhuj, Kutch – 370020</Link></li>
                             </ul>
                         </div>
                         <div className="tp-offcanvas-social">

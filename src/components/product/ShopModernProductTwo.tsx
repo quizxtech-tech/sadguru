@@ -1,4 +1,4 @@
-import product1 from '../../../public/assets/img/shop-home/product/product-1.jpg';
+import product1 from '../../../public/assets/img/new/f4.png';
 import SingleProductCard from './subComponents/SingleProductCard';
 import { productData } from '@/data/productData';
 import { ProductDT } from '@/types/product.d-t';

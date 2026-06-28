@@ -32,8 +32,8 @@ const CreativeStudioBrandTwo = () => {
                         allowTouchMove={false}
                         speed={3000}
                         autoplay={{
-                            delay: 1,
-                            disableOnInteraction: true,
+                            delay: 0,
+                            disableOnInteraction: false,
                         }}
                         breakpoints={{
                             1600: { slidesPerView: 6 },

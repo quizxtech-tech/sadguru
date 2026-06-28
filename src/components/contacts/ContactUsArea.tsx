@@ -4,34 +4,37 @@ import thumb3 from "../../../public/assets/img/contact/contact-location-3.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import siteConfig from "@/config/admin";
 
 const ContactUsArea = () => {
   const contactData = [
     {
-      title: "San Francisco",
+      title: "Bhuj, Kutch – Gujarat",
       img: thumb1,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
-      mapLink: "https://www.google.com/maps",
+      email: siteConfig.contact.email,
+      phone: siteConfig.contact.phone,
+      link: siteConfig.contact.mapLink,
+      btnText: "View Location",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
     },
     {
-      title: "Germany",
+      title: "Chat on WhatsApp",
       img: thumb2,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
-      mapLink: "https://www.google.com/maps",
-      btnClass: "tp-btn-yellow-green active w-100",
-      speed: ".9",
-      extraClass: "mt-60",
+      email: siteConfig.contact.email,
+      phone: siteConfig.contact.phone,
+      link: siteConfig.social.whatsapp,
+      btnText: "WhatsApp Us",
+      btnClass: "tp-btn-yellow-green w-100",
+      speed: "1.2",
     },
     {
-      title: "New Zealand",
+      title: "Email Address",
       img: thumb3,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
-      mapLink: "https://www.google.com/maps",
+      email: siteConfig.contact.email,
+      phone: siteConfig.contact.phone,
+      link: `mailto:${siteConfig.contact.email}`,
+      btnText: "Email Us",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
     },
@@ -55,17 +58,17 @@ const ContactUsArea = () => {
                   <div className="tp-contact-us-info-details">
                     <h4 className="tp-contact-us-info-title">{item.title}</h4>
                     <Link href={`mailto:${item.email}`}>{item.email}</Link>
-                    <Link href={`tel:${item.phone}`}>{item.phone}</Link>
+                    <Link href={`tel:${item.phone.replace(/[^+\d]/g, '')}`}>{item.phone}</Link>
                   </div>
                   <div className="tp-contact-us-btn">
                     <Link
                       className={item.btnClass}
-                      target="_blank"
-                      href={item.mapLink}
+                      target={item.link.startsWith('mailto:') ? undefined : '_blank'}
+                      href={item.link}
                     >
                       <span>
-                        <span className="text-1">View Location</span>
-                        <span className="text-2">View Location</span>
+                        <span className="text-1">{item.btnText}</span>
+                        <span className="text-2">{item.btnText}</span>
                       </span>
                     </Link>
                   </div>

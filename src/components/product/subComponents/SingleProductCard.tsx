@@ -1,5 +1,4 @@
 import { ProductDT } from "@/types/product.d-t";
-import { EyeIcon } from "@/svg/EyeIcons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,28 +8,16 @@ const SingleProductCard = ({ product }: { product: ProductDT }) => {
         <>
             <div className="tp-product-item mb-30">
                 <div className="tp-product-item-thumb">
-                    <Link href={product.link}>
-                        <Image style={{ width: "100%", height: "auto" }} src={product.image} alt={product.alt} className="w-100" />
+                    <Link href="#" onClick={(e) => e.preventDefault()}>
+                        <Image style={{ width: "100%", height: "320px", objectFit: "contain", backgroundColor: "#fff", padding: "20px" }} src={product.image} alt={product.alt} className="w-100" />
                     </Link>
-
-                    <div className="tp-product-quick-view-wrapper">
-                        <button className="tp-quick-view-btn" data-bs-toggle="modal" data-bs-target="#producQuickViewModal">
-                            <EyeIcon />
-                        </button>
-                    </div>
-                    <div className="tp-product-item-btn">
-                        <button className="tp-action-btn" type="button">
-                            Add to cart
-                        </button>
-                    </div>
                 </div>
                 <div className="tp-product-item-content d-flex justify-content-between align-content-center">
-                    <h4 className="tp-product-item-title">
-                        <Link className="tp-line-black" href={product.link}>
+                    <h4 className="tp-product-item-title" style={{ width: "100%" }}>
+                        <Link className="tp-line-black" href="#" onClick={(e) => e.preventDefault()}>
                             {product.title}
                         </Link>
                     </h4>
-                    <span className="tp-product-item-price">${product.price}</span>
                 </div>
             </div>
         </>

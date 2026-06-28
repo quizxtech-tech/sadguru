@@ -7,8 +7,8 @@ const HomeMainWork = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="tp-work-title-box tp-panel-pin">
-                            <span className="tp-section-subtitle pre mb-20">How we Work</span>
-                            <h2 className="tp-section-title fs-140">Our <br /> design thinking process</h2>
+                            <span className="tp-section-subtitle pre mb-20">How We Work</span>
+                            <h2 className="tp-section-title fs-140">Our <br /> supply process</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -19,8 +19,8 @@ const HomeMainWork = () => {
                                     <i>01</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">User Research</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Product Inquiry</h4>
+                                    <p>Share your requirement — we understand your product needs and suggest the best-fit chemicals or lubricants for your application.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -29,8 +29,8 @@ const HomeMainWork = () => {
                                     <i>02</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Define Problems</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Quotation & Pricing</h4>
+                                    <p>We provide transparent, competitive pricing with no hidden charges — tailored to your order volume and delivery requirements.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">

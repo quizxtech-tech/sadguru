@@ -5,22 +5,22 @@ const ShopModernFeature = () => {
     const features = [
         {
             id: 1,
-            title: "Fast & free shipping",
-            description: "Every single order ships for free. No minimums, no tiers, no fine print whatsoever.",
+            title: "Genuine Quality Products",
+            description: "We source only genuine, high-quality chemicals and lubricants from trusted manufacturers to ensure reliable performance.",
             icon: <FastShippingIcon />,
             delay: ".3"
         },
         {
             id: 2,
-            title: "Secure payment",
-            description: "Pay with the world's most popular and secure payment methods.",
+            title: "Timely & Reliable Supply",
+            description: "We maintain ready stock to ensure timely availability and delivery for all your industrial and commercial requirements.",
             icon: <SecurePaymentIcon />,
             delay: ".5"
         },
         {
             id: 3,
-            title: "Flexible & Easy Return",
-            description: "Not happy? Return it within 30 days for a full refund.",
+            title: "Expert Product Guidance",
+            description: "With 25+ years of experience, our team helps you choose the right products for your specific industrial needs.",
             icon: <EasyReturnIcon />,
             delay: ".7"
         }

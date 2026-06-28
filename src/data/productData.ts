@@ -1,212 +1,217 @@
-import product1 from "../../public/assets/img/product/product-details-main/related/related-1.jpg";
-import product2 from "../../public/assets/img/product/product-details-main/related/related-2.jpg";
-import product3 from "../../public/assets/img/product/product-details-main/related/related-3.jpg";
-import product4 from "../../public/assets/img/product/product-details-main/related/related-4.jpg";
-import product5 from "../../public/assets/img/product/shop/shop-thumb-1.png"
-import product6 from "../../public/assets/img/product/shop/shop-thumb-2.png"
-import product7 from "../../public/assets/img/product/shop/shop-thumb-3.png"
-import product8 from "../../public/assets/img/product/shop/shop-thumb-4.png"
-import product9 from "../../public/assets/img/product/shop/shop-thumb-5.png"
-import product10 from "../../public/assets/img/product/shop/shop-thumb-6.png"
-import product11 from "../../public/assets/img/product/shop/shop-thumb-7.png"
-import product12 from "../../public/assets/img/product/shop/shop-thumb-8.png"
-import product13 from "../../public/assets/img/product/shop/shop-thumb-9.png"
-import product14 from "../../public/assets/img/product/shop/shop-thumb-10.png"
-import product15 from "../../public/assets/img/product/shop/shop-thumb-11.png"
-import product16 from "../../public/assets/img/product/shop/shop-thumb-12.png"
+import elf15w from "../../public/assets/img/new/product/elf15w.webp";
+import elf15w40 from "../../public/assets/img/new/product/elf15w40.jpg";
+import elf5w from "../../public/assets/img/new/product/elf5w.webp";
+import total9000 from "../../public/assets/img/new/product/total-9000.webp";
+import total15w from "../../public/assets/img/new/product/total15w.webp";
+import total7000 from "../../public/assets/img/new/product/total7000.webp";
+import val15w from "../../public/assets/img/new/product/val15w.jpg";
+import val15wblue from "../../public/assets/img/new/product/val15wblue.webp";
+import val5w from "../../public/assets/img/new/product/val5w.webp";
 import { ProductDT } from "@/types/product.d-t";
-//cart mini product image
-import product17 from "../../public/assets/img/product/shop/shop-thumb-3.png";
-import product18 from "../../public/assets/img/product/shop/shop-thumb-4.png";
-import product19 from "../../public/assets/img/product/shop/shop-thumb-5.png";
 
 export const productData: ProductDT[] = [
-  //shop modern product data
+  // 1. Total Rubia Fleet HD 15W-40
   {
     id: 1,
-    title: 'Plush White Chair',
-    price: 520,
+    title: 'Total Rubia Fleet HD 15W-40',
+    price: 120,
     quantity: 0,
-    image: product1,
-    alt: 'Plush White Chair',
+    image: total15w,
+    alt: 'Total Rubia Fleet HD 15W-40',
     delay: '.3',
-    link: "/shop-details",
+    link: "#",
   },
+  // 2. Valvoline All Fleet Multi 15W-40
   {
     id: 2,
-    title: 'Tripod table lamp',
-    price: 344,
+    title: 'Valvoline All Fleet Multi 15W-40',
+    price: 130,
     quantity: 0,
-    image: product2,
-    alt: 'Tripod table lamp',
+    image: val15w,
+    alt: 'Valvoline All Fleet Multi 15W-40',
     delay: '.5',
-    link: "/shop-details",
+    link: "#",
   },
+  // 3. ELF Evolution TS 15W-40
   {
     id: 3,
-    title: 'Hexagonal table',
-    price: 450,
+    title: 'ELF Evolution TS 15W-40',
+    price: 110,
     quantity: 0,
-    image: product3,
-    alt: 'Hexagonal table',
+    image: elf15w40,
+    alt: 'ELF Evolution TS 15W-40',
     delay: '.7',
-    link: "/shop-details",
+    link: "#",
   },
+  // 4. Total Quartz 9000 5W-40
   {
     id: 4,
-    title: 'Designer Glass Table',
-    price: 220,
+    title: 'Total Quartz 9000 5W-40',
+    price: 210,
     quantity: 0,
-    image: product4,
-    alt: 'Designer Glass Table',
+    image: total9000,
+    alt: 'Total Quartz 9000 5W-40',
     delay: '.8',
-    link: "/shop-details",
+    link: "#",
   },
-  //shop modern product end
-  //shop modern product two data
+  // 5. Total Quartz Diesel 5000 15W-40
   {
     id: 5,
-    title: 'Plush White Chair',
-    price: 520,
+    title: 'Total Quartz Diesel 5000 15W-40',
+    price: 140,
     quantity: 0,
-    image: product5,
-    alt: 'Plush White Chair',
+    image: total7000,
+    alt: 'Total Quartz Diesel 5000 15W-40',
     delay: '.3',
-    link: "/shop-details",
+    link: "#",
   },
+  // 6. Valvoline Premium Blue 15W-40
   {
     id: 6,
-    title: 'Designer Glass Table',
-    price: 344,
+    title: 'Valvoline Premium Blue 15W-40',
+    price: 150,
     quantity: 0,
-    image: product6,
-    alt: 'Designer Glass Table',
+    image: val15wblue,
+    alt: 'Valvoline Premium Blue 15W-40',
     delay: '.5',
-    link: "/shop-details",
+    link: "#",
   },
+  // 7. Valvoline SynPower 5W-40
   {
     id: 7,
-    title: 'Woven Chair',
-    price: 450,
+    title: 'Valvoline SynPower 5W-40',
+    price: 220,
     quantity: 0,
-    image: product7,
-    alt: 'Woven Chair',
+    image: val5w,
+    alt: 'Valvoline SynPower 5W-40',
     delay: '.7',
-    link: "/shop-details",
+    link: "#",
   },
+  // 8. ELF Evolution 900 SXR 5W-40
   {
     id: 8,
-    title: 'Paxous Chair',
-    price: 220,
+    title: 'ELF Evolution 900 SXR 5W-40',
+    price: 200,
     quantity: 0,
-    image: product8,
-    alt: 'Paxous Chair',
+    image: elf5w,
+    alt: 'ELF Evolution 900 SXR 5W-40',
     delay: '.8',
-    link: "/shop-details",
+    link: "#",
   },
+  // 9. ELF Evolution 500 Turbo Diesel 15W-40
   {
     id: 9,
-    title: 'Plush White Chair',
-    price: 520,
+    title: 'ELF Evolution 500 Turbo Diesel 15W-40',
+    price: 125,
     quantity: 0,
-    image: product9,
-    alt: 'Plush White Chair',
+    image: elf15w,
+    alt: 'ELF Evolution 500 Turbo Diesel 15W-40',
     delay: '.3',
-    link: "/shop-details",
+    link: "#",
   },
+  // 10. Total Rubia Fleet HD 15W-40 (dupe)
   {
     id: 10,
-    title: 'Tripod table lamp',
-    price: 344,
+    title: 'Total Rubia Fleet HD 15W-40',
+    price: 120,
     quantity: 0,
-    image: product10,
-    alt: 'Tripod table lamp',
+    image: total15w,
+    alt: 'Total Rubia Fleet HD 15W-40',
     delay: '.5',
-    link: "/shop-details",
+    link: "#",
   },
+  // 11. Valvoline All Fleet Multi 15W-40 (dupe)
   {
     id: 11,
-    title: 'Hexagonal table',
-    price: 450,
+    title: 'Valvoline All Fleet Multi 15W-40',
+    price: 130,
     quantity: 0,
-    image: product11,
-    alt: 'Hexagonal table',
+    image: val15w,
+    alt: 'Valvoline All Fleet Multi 15W-40',
     delay: '.7',
-    link: "/shop-details",
+    link: "#",
   },
+  // 12. ELF Evolution TS 15W-40 (dupe)
   {
     id: 12,
-    title: 'Designer Glass Table',
-    price: 220,
+    title: 'ELF Evolution TS 15W-40',
+    price: 110,
     quantity: 0,
-    image: product12,
-    alt: 'Designer Glass Table',
+    image: elf15w40,
+    alt: 'ELF Evolution TS 15W-40',
     delay: '.8',
-    link: "/shop-details",
+    link: "#",
   },
+  // 13. Total Quartz 9000 5W-40 (dupe)
   {
     id: 13,
-    title: "Round Table",
-    price: 70.00,
+    title: 'Total Quartz 9000 5W-40',
+    price: 210,
     quantity: 2,
-    image: product13,
-    alt: 'Round Table',
-    link: "/shop-details",
+    image: total9000,
+    alt: 'Total Quartz 9000 5W-40',
+    link: "#",
   },
+  // 14. Total Quartz Diesel 5000 15W-40 (dupe)
   {
     id: 14,
-    title: "Paxous Chair",
-    price: 120.00,
+    title: 'Total Quartz Diesel 5000 15W-40',
+    price: 140,
     quantity: 2,
-    image: product14,
-    alt: 'Paxous Chair',
-    link: "/shop-details",
+    image: total7000,
+    alt: 'Total Quartz Diesel 5000 15W-40',
+    link: "#",
   },
+  // 15. Valvoline Premium Blue 15W-40 (dupe)
   {
     id: 15,
-    title: "Plush White Chair",
-    price: 120.00,
+    title: 'Valvoline Premium Blue 15W-40',
+    price: 150,
     quantity: 2,
-    image: product15,
-    alt: 'Plush White Chair',
-    link: "/shop-details",
+    image: val15wblue,
+    alt: 'Valvoline Premium Blue 15W-40',
+    link: "#",
   },
+  // 16. Valvoline SynPower 5W-40 (dupe)
   {
     id: 16,
-    title: "Plush White Chair",
-    price: 120.00,
+    title: 'Valvoline SynPower 5W-40',
+    price: 220,
     quantity: 2,
-    image: product16,
-    alt: 'Plush White Chair',
-    link: "/shop-details",
+    image: val5w,
+    alt: 'Valvoline SynPower 5W-40',
+    link: "#",
   },
-
-  //shop modern product two data end
+  // 17. ELF Evolution 900 SXR 5W-40 (dupe)
   {
     id: 17,
-    title: "Woven Chair",
-    price: 120.00,
+    title: 'ELF Evolution 900 SXR 5W-40',
+    price: 200,
     quantity: 2,
-    image: product17,
-    alt: 'Woven Chair',
-    link: "/shop-details",
+    image: elf5w,
+    alt: 'ELF Evolution 900 SXR 5W-40',
+    link: "#",
   },
+  // 18. ELF Evolution 500 Turbo Diesel 15W-40 (dupe)
   {
     id: 18,
-    title: "Paxous Chair",
-    price: 120.00,
+    title: 'ELF Evolution 500 Turbo Diesel 15W-40',
+    price: 125,
     quantity: 2,
-    image: product18,
-    alt: 'Paxous Chair',
-    link: "/shop-details",
+    image: elf15w,
+    alt: 'ELF Evolution 500 Turbo Diesel 15W-40',
+    link: "#",
   },
+  // 19. Total Rubia Fleet HD 15W-40 (dupe)
   {
     id: 19,
-    title: "Plush White Chair",
-    price: 120.00,
+    title: 'Total Rubia Fleet HD 15W-40',
+    price: 120,
     quantity: 2,
-    image: product19,
-    alt: 'Plush White Chair',
-    link: "/shop-details",
+    image: total15w,
+    alt: 'Total Rubia Fleet HD 15W-40',
+    link: "#",
   }
 ];
+
+export default productData;

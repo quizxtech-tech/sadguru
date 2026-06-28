@@ -1,4 +1,4 @@
-import bannerImg from "../../../public/assets/img/home-12/banner/banner.jpg";
+import bannerImg from "../../../public/assets/img/new/hero2.jpeg";
 import bgShapeImg from "../../../public/assets/img/home-12/banner/circle-bg.png";
 import circleManImg from "../../../public/assets/img/home-12/banner/circle-man.png";
 import circleTextImg from "../../../public/assets/img/home-12/banner/circle-text.png";
@@ -11,7 +11,7 @@ const StartupAgencyBanner = () => {
             <div className="st-banner-wrap">
                 <Image style={{ width: "100%", height: "auto" }} className="w-100" src={bannerImg} alt="banner" data-speed=".8" />
             </div>
-            <div className="st-banner-text-shape">
+            {/* <div className="st-banner-text-shape">
                 <div className="st-banner-text-bg z-index-1">
                     <Image className="bg-shape" src={bgShapeImg} alt="shape" />
                     <div className="crp-text-shape-wrap">
@@ -19,7 +19,7 @@ const StartupAgencyBanner = () => {
                         <Image className="crp-text-shape-2" src={circleTextImg} alt="shape" />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

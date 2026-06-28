@@ -34,7 +34,7 @@ const CorporateAgencyAbout = () => {
                                     </h4>
                                     <div className="crp-about-bottom-wrap d-flex">
                                         <div className="crp-about-btn-box tp_fade_anim" data-delay=".5" >
-                                            <Link className="tp-btn-yellow-green lg" href="/about-us-light">
+                                            <Link className="tp-btn-yellow-green lg" href="/about-us">
                                                 <span>
                                                     <span className="text-1">About our Agency</span>
                                                     <span className="text-2">About our Agency</span>

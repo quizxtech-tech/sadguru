@@ -51,7 +51,7 @@ const DigitalMarketingAbout = () => {
                                     </p>
                                 </div>
                                 <div className="tp_fade_anim" data-delay=".5">
-                                    <Link className="tp-btn-yellow-green green-solid btn-60 mb-50" href="/about-us-light">
+                                    <Link className="tp-btn-yellow-green green-solid btn-60 mb-50" href="/about-us">
                                         <span>
                                             <span className="text-1">More about us</span>
                                             <span className="text-2">More about us</span>

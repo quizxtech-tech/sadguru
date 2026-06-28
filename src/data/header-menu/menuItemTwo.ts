@@ -28,7 +28,7 @@ const menuItemsTwo: MenuItem[] = [
         static:true,
         subItems: [
             { title: "About Me", href: "/about-me-light" },
-            { title: "About Us", href: "/about-us-light" },
+            { title: "About Us", href: "/about-us" },
             { title: "Services", href: "/service-1-light" },
             { title: "Service Details", href: "/service-details-2-light" },
             { title: "Carrer", href: "/career-light" },
@@ -70,7 +70,7 @@ const menuItemsTwo: MenuItem[] = [
         href: "#",
         static:false,
         subItems: [
-            { title: "Shop Modern", href: "/shop-modern-light" },
+            { title: "Shop Modern", href: "/product" },
             { title: "Shop Details", href: "/shop-details" },
             { title: "My Account", href: "/my-account" },
             { title: "Cart", href: "/cart" },
@@ -85,7 +85,7 @@ const menuItemsTwo: MenuItem[] = [
         static:false,
         subItems: [
             { title: "Contact Me", href: "/contact-me-light" },
-            { title: "Contact Us", href: "/contact-us-light" },
+            { title: "Contact Us", href: "/contact-us" },
             { title: "Get In Touch", href: "/contact" },
         ],
     },

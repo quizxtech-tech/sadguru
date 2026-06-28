@@ -1,7 +1,7 @@
 
-import image1 from "../../../public/assets/img/shop-home/slider-nav-1.png";
-import image2 from "../../../public/assets/img/shop-home/slider-nav-2.png";
-import image3 from "../../../public/assets/img/shop-home/slider-nav-3.png";
+import image1 from "../../../public/assets/img/new/f1.png";
+import image2 from "../../../public/assets/img/new/f2.png";
+import image3 from "../../../public/assets/img/new/f3.png";
 import { useSlider } from "@/constants/slick-slider/sliderSettings";
 import { shopModernHeroSlideData } from "@/data/heroData";
 import Slider from 'react-slick';
@@ -14,7 +14,7 @@ const ShopModernHero = () => {
 
     return (
         <div className="tp-hero-shop-area pt-120 p-relative fix" style={{ backgroundColor: "#E8E0D4" }}>
-            <h1 className="tp-hero-shop-title tp-char-animation">zonspace</h1>
+            <h1 className="tp-hero-shop-title tp-char-animation">Sadguru Sales</h1>
             <div className="container container-1830">
                 <div className="tp-hero-shop-slider-main">
 

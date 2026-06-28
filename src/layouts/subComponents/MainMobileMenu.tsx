@@ -104,12 +104,12 @@ const MainMobileMenu = () => {
                                                         </li>
                                                     ))}
                                                 </ul>
-                                                <button
+                                                {/* <button
                                                     className={`tp-menu-close ${activeSubmenu === subIndex ? 'active' : ''}`}
                                                     onClick={() => toggleSubmenu(subIndex)}
                                                 >
                                                     <i className="fa-solid fa-plus"></i>
-                                                </button>
+                                                </button> */}
                                             </>
                                         )}
                                     </li>
@@ -117,12 +117,12 @@ const MainMobileMenu = () => {
                             </ul>
                         )}
 
-                        <button
+                        {/* <button
                             className={`tp-menu-close ${activeMenu === menuItem.id ? 'active' : ''}`}
                             onClick={() => toggleMenu(menuItem.id)}
                         >
                             <i className="fa-solid fa-plus"></i>
-                        </button>
+                        </button> */}
                     </li>
                 ))}
             </ul>

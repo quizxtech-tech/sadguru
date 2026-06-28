@@ -25,8 +25,8 @@ const UniqueAIImageTextSlider = () => {
                 allowTouchMove={false}
                 speed={8000}
                 autoplay={{
-                    delay: 1,
-                    disableOnInteraction: true,
+                    delay: 0,
+                    disableOnInteraction: false,
                 }}
             >
                 {slides.map((slide, index) => (

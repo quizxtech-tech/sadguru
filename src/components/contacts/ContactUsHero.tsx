@@ -26,8 +26,8 @@ const ContactUsHero = () => {
                                         <ArrowTwenty />
                                     </div>
                                 </div>
-                                <h3 className="tp-career-title pb-30">Your creative{" "}
-                                    <span className="shape-1"><Image src={shape} alt="shape" /></span> <br />journey starts here
+                                <h3 className="tp-career-title pb-30">Get in Touch with{" "}
+                                    <span className="shape-1"><Image src={shape} alt="shape" /></span> <br />Sadguru Sales Agency
                                 </h3>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ const ContactUsHero = () => {
                         <div className="col-lg-4"></div>
                         <div className="col-lg-8">
                             <div className="tp-faq-text tp_fade_anim">
-                                <p className="m-0">Agntix is a beacon of best innovation and the dynamic <br /> parent a company of wealcoder and many other subsidiaries.</p>
+                                <p className="m-0">Looking for reliable chemical and lubricant solutions? <br /> Contact us for product inquiries, bulk orders, and pricing information.</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const ContactUsHero = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="tp-contact-us-text d-none d-md-block text-md-end">
-                                <p>See in Map our Office</p>
+                                <p>Sadguru Sales Agency, Madhapar, Bhuj</p>
                             </div>
                         </div>
                     </div>

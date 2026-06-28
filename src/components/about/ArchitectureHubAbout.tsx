@@ -55,11 +55,11 @@ const ArchitectureHubAbout = () => {
                                 </p>
                             </div>
                             <div className="tp-btn-red-circle-box tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                <Link className="tp-btn-red-circle-icon" href="/about-us-light">
+                                <Link className="tp-btn-red-circle-icon" href="/about-us">
                                     <span><ArrowFour /></span>
                                 </Link>
-                                <Link className="tp-btn-red-circle-text" href="/about-us-light">About Us</Link>
-                                <Link className="tp-btn-red-circle-icon" href="/about-us-light">
+                                <Link className="tp-btn-red-circle-text" href="/about-us">About Us</Link>
+                                <Link className="tp-btn-red-circle-icon" href="/about-us">
                                     <span><ArrowFour /></span>
                                 </Link>
                             </div>

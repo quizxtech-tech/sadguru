@@ -75,6 +75,7 @@ const HomeMainService = () => {
                         data-delay=".2"
                         src={service.image}
                         alt={`${service.title} image`}
+                        style={{ width: '100%', height: 'auto' }}
                         priority={service.id === 1}
                       />}
                     </div>

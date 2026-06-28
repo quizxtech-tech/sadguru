@@ -1,8 +1,8 @@
-import videoImgOne from "../../../public/assets/img/home-01/video/video-1.jpg";
-import videoImgTwo from "../../../public/assets/img/home-01/video/video-3.jpg";
-import videoImgThree from "../../../public/assets/img/home-01/video/video-4.jpg";
-import videoImgFour from "../../../public/assets/img/home-01/video/video-5.jpg";
-import videoImgFive from "../../../public/assets/img/home-01/video/video-6.jpg";
+import videoImgOne from "../../../public/assets/img/new/sc1.png";
+import videoImgTwo from "../../../public/assets/img/new/sc2.png";
+import videoImgThree from "../../../public/assets/img/new/sc3.png";
+import videoImgFour from "../../../public/assets/img/new/sc4.png";
+import videoImgFive from "../../../public/assets/img/new/sc5.png";
 import VideoPlayer from '../shared/VideoPlayer/VideoPlayer';
 import Image from 'next/image';
 import React from 'react';
@@ -43,7 +43,7 @@ const HomeMainVideo = () => {
         <div className="tp-video-thumb-wrap">
           {/* First image (hidden on mobile) */}
           <div className={`tp-video-thumb ${VIDEO_IMAGES[0].className}`}>
-            <Image style={{width:"100%", height:"auto"}} src={VIDEO_IMAGES[0].image} alt={VIDEO_IMAGES[0].alt} />
+            <Image style={{ width: "100%", height: "300px" }} src={VIDEO_IMAGES[0].image} alt={VIDEO_IMAGES[0].alt} />
           </div>
 
           {/* Main video player (always visible) */}
@@ -54,7 +54,7 @@ const HomeMainVideo = () => {
           {/* Remaining images */}
           {VIDEO_IMAGES.slice(1).map((img, index) => (
             <div key={`video-img-${index}`} className={`tp-video-thumb ${img.className}`}>
-              <Image style={{ width: "100%", height: "auto" }} src={img.image} alt={img.alt} />
+              <Image style={{ width: "100%", height: "300px" }} src={img.image} alt={img.alt} />
             </div>
           ))}
         </div>

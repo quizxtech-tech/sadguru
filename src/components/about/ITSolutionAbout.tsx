@@ -27,7 +27,7 @@ const ITSolutionAbout = () => {
                                 </p>
                             </div>
                             <div className="tp_fade_anim" data-fade-from="top" data-ease="bounce">
-                                <Link className="tp-btn-black-radius btn-blue-bg  d-inline-flex align-items-center justify-content-between mr-15" href="/about-us-light">
+                                <Link className="tp-btn-black-radius btn-blue-bg  d-inline-flex align-items-center justify-content-between mr-15" href="/about-us">
                                     <span>
                                         <span className="text-1">More about Us</span>
                                         <span className="text-2">More about Us</span>

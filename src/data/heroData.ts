@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
-import slideImg1 from "../../public/assets/img/shop-home/slider-1.png";
-import slideImg2 from "../../public/assets/img/shop-home/slider-2.png";
-import slideImg3 from "../../public/assets/img/shop-home/slider-3.png";
+import slideImg1 from "../../public/assets/img/new/f1.png";
+import slideImg2 from "../../public/assets/img/new/f2.png";
+import slideImg3 from "../../public/assets/img/new/f3.png";
 
 interface heroDT {
     title: string;
@@ -12,27 +12,27 @@ interface heroDT {
 
 export const shopModernHeroSlideData: heroDT[] = [
     {
-        title: "Form dining <br /> chairs",
-        subtitle: "Shop Collection",
+        title: "Quality Chemicals <br /> for Every Industry",
+        subtitle: "Industrial Chemicals",
         image: slideImg1,
-        alt: "Form dining chairs"
+        alt: "Industrial Chemicals"
     },
     {
-        title: "Elegant Dining <br /> Seats",
-        subtitle: "Shop Collection",
+        title: "Premium Lubricants <br /> for Peak Performance",
+        subtitle: "Lubricants & Oils",
         image: slideImg2,
-        alt: "Elegant Dining Seats"
+        alt: "Lubricants and Oils"
     },
     {
-        title: "Stylish Dinner<br /> Chairs",
-        subtitle: "Shop Collection",
+        title: "Reliable Supply <br /> for Your Business",
+        subtitle: "Bulk Supply",
         image: slideImg3,
-        alt: "Stylish Dinner Chairs"
+        alt: "Bulk Supply"
     },
     {
-        title: "Modern Dining <br /> Chairs",
-        subtitle: "Shop Collection",
+        title: "Trusted Supplier <br /> Since 2001",
+        subtitle: "25+ Years Experience",
         image: slideImg2,
-        alt: "Modern Dining Chairs"
+        alt: "Trusted Supplier Since 2001"
     }
 ];

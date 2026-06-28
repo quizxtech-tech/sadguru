@@ -7,8 +7,8 @@ const StartupAgencyVideoTextSlider = () => {
     const videoTextSlides = Array(7).fill(
         {
             id: 0,
-            title: 'STARTUP',
-            emphasizedText: 'AGENCY'
+            title: 'SADGURU',
+            emphasizedText: 'SALES'
         }).map((item, index) => ({
             ...item,
             id: index + 1

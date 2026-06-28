@@ -19,7 +19,7 @@ const headerMenuData: MenuItem[] = [
     children: false,
     title: "About Us",
     pluseIncon: false,
-    link: "/about-us-light",
+    link: "/about-us",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const headerMenuData: MenuItem[] = [
     children: false,
     title: "Contact Us",
     pluseIncon: false,
-    link: "/contact-us-light",
+    link: "/contact-us",
   },
   {
     id: 4,
@@ -39,18 +39,18 @@ const headerMenuData: MenuItem[] = [
     children: false,
     title: "Product",
     pluseIncon: false,
-    link: "/shop-modern",
+    link: "/product",
   },
-  {
-    id: 5,
-    hasDropdown: false,
-    active: false,
-    megaMenu: false,
-    children: false,
-    title: "Blog",
-    pluseIncon: false,
-    link: "/blog-standard-light",
-  },
+  // {
+  //   id: 5,
+  //   hasDropdown: false,
+  //   active: false,
+  //   megaMenu: false,
+  //   children: false,
+  //   title: "Blog",
+  //   pluseIncon: false,
+  //   link: "/blog-standard-light",
+  // },
 ];
 export default headerMenuData;
 

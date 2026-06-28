@@ -1,6 +1,6 @@
 "use client"
 import popupImg from '../../../public/assets/img/shop-home/newsletter/window-popup.jpg';
-import logo from '../../../public/assets/img/logo/logo-shop.png';
+import logo from '../../../public/assets/img/new/logo/SSA full logo.png';
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 
@@ -38,9 +38,9 @@ const ShopModernSubscribePopup = () => {
             <Image src={logo} alt="Logo" />
           </div>
           <div className="tp-shop-popup-text">
-            <h4>Save 15%</h4>
-            <p>ON TODAYS ORDER</p>
-            <span>SIGN UP BELOW FOR DISCOUNT CODE</span>
+            <h4>Get a Quote</h4>
+            <p>BULK ORDERS & INQUIRIES</p>
+            <span>SUBSCRIBE FOR PRODUCT UPDATES</span>
           </div>
           <form action="#">
             <div className="tp-shop-popup-inputbox">

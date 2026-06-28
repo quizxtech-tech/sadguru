@@ -41,8 +41,8 @@ const ArchitectureHubBrand = () => {
                             allowTouchMove={false}
                             speed={12000}
                             autoplay={{
-                                delay: 1,
-                                disableOnInteraction: true,
+                                delay: 0,
+                                disableOnInteraction: false,
                             }}
                         >
                             {brandItems.map((item) => (

@@ -14,8 +14,8 @@ const AboutUsHero = () => {
                     <div className="row justify-content-center">
                         <div className="col-xl-12">
                             <div className="ar-hero-title-box tp_fade_anim" data-delay=".3">
-                                <h3 className="ar-about-us-4-title">Fueling Minds <br />
-                                    Inspiring Designs..</h3>
+                                <h3 className="ar-about-us-4-title">Trusted Chemical &amp; Lubricant <br />
+                                    Supplier Since 2001</h3>
                                 <div className="ar-about-us-4-title-box d-flex justify-content-end">
                                     <span className="tp-section-subtitle pre">About Us</span>
                                     <div className="ar-about-us-4-icon">
@@ -24,8 +24,8 @@ const AboutUsHero = () => {
                                             <path d="M77 7.96366L80.5 4.48183L77 1" stroke="#111013" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                     </div>
-                                    <p>An independent web design and branding agency <br />
-                                        in Manchester set up in 2012 who care, build relationships, <br /> have industry experience, and win awards.</p>
+                                    <p>An independent Sadguru Sales Agency is a trusted supplier of industrial chemicals <br />
+                                        and lubricants in Bhuj, Kutch — established in 2001, <br /> serving businesses with quality products and reliable service.</p>
                                 </div>
                             </div>
                         </div>

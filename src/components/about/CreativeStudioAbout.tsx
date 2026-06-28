@@ -21,7 +21,7 @@ const CreativeStudioAbout = () => {
                             </div>
                             <div className="creative-about-btn-box d-flex align-items-center">
                                 <div className="tp_fade_anim" data-fade-from="top" data-delay=".3" data-ease="bounce">
-                                    <Link href="/about-us-light" className="tp-btn-black btn-green-light-bg mb-20 pr-15">
+                                    <Link href="/about-us" className="tp-btn-black btn-green-light-bg mb-20 pr-15">
                                         <span className="tp-btn-black-filter-blur">
                                             <ButtonBlurFilter />
                                         </span>

@@ -1,10 +1,10 @@
 import circleText from '../../../public/assets/img/shop-home/about/circle-text.jpg';
-import about1 from '../../../public/assets/img/shop-home/about/about-1.jpg';
-import about2 from '../../../public/assets/img/shop-home/about/about-2.jpg';
-import about3 from '../../../public/assets/img/shop-home/about/about-3.jpg';
-import about4 from '../../../public/assets/img/shop-home/about/about-4.jpg';
-import about5 from '../../../public/assets/img/shop-home/about/about-5.jpg';
-import about6 from '../../../public/assets/img/shop-home/about/about-6.jpg';
+import about1 from '../../../public/assets/img/new/f1.png';
+import about2 from '../../../public/assets/img/new/f2.png';
+import about3 from '../../../public/assets/img/new/f3.png';
+import about4 from '../../../public/assets/img/new/f4.png';
+import about5 from '../../../public/assets/img/new/ww1.png';
+import about6 from '../../../public/assets/img/new/cu.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -17,10 +17,10 @@ const ShopModernAbout = () => {
                     <div className="col-xl-3">
                         <div className="tp-shop-about-thumb">
                             <div className="img-1">
-                                <Image data-speed="1.1" src={about2} alt="about image" />
+                                <Image style={{ width: "100%", height: "250px", objectFit: "cover", borderRadius: "10px" }} data-speed="1.1" src={about2} alt="about image" />
                             </div>
                             <div className="img-2">
-                                <Image data-speed="1.2" src={about1} alt="about image" />
+                                <Image style={{ width: "130px", height: "150px", objectFit: "cover", borderRadius: "10px" }} data-speed="1.2" src={about1} alt="about image" />
                             </div>
                         </div>
                     </div>
@@ -31,11 +31,11 @@ const ShopModernAbout = () => {
                             </div>
                             <div className="tp-shop-about-content text-center">
                                 <p>
-                                    Furniture inspired by our <br /> land & resources, clear
-                                    lines that reflect a patient & mastered <br /> gesture.
+                                    Quality industrial chemicals and lubricants, <br /> trusted by businesses
+                                    across Bhuj and Kutch <br /> since 2001.
                                 </p>
                                 <div className="tp-shop-about-btn tp_fade_anim" data-delay=".3" data-fade-from="top" data-ease="bounce">
-                                    <Link className="tp-checkout-btn border-style" href="/about-us-light">
+                                    <Link className="tp-checkout-btn border-style" href="/about-us">
                                         More About Us
                                         <span>
                                             <svg width="21" height="10" viewBox="0 0 21 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ const ShopModernAbout = () => {
                             </div>
                             <div className="tp-shop-about-thumb">
                                 <div className="img-3">
-                                    <Image data-speed=".9" src={about3} alt="about image" />
+                                    <Image style={{ width: "100%", height: "350px", objectFit: "cover", borderRadius: "10px" }} data-speed=".9" src={about3} alt="about image" />
                                 </div>
                             </div>
                         </div>
@@ -55,13 +55,13 @@ const ShopModernAbout = () => {
                     <div className="col-xl-3">
                         <div className="tp-shop-about-thumb text-end">
                             <div className="img-4 z-index-1">
-                                <Image style={{ width: "auto", height: "auto" }} data-speed="1.1" src={about4} alt="about image" />
+                                <Image style={{ width: "130px", height: "160px", objectFit: "cover", borderRadius: "10px" }} data-speed="1.1" src={about4} alt="about image" />
                             </div>
                             <div className="img-5">
-                                <Image data-speed="1.2" src={about5} alt="about image" />
+                                <Image style={{ width: "150px", height: "200px", objectFit: "cover", borderRadius: "10px" }} data-speed="1.2" src={about5} alt="about image" />
                             </div>
                             <div className="img-6">
-                                <Image data-speed="1.1" src={about6} alt="about image" />
+                                <Image style={{ width: "160px", height: "160px", objectFit: "cover", borderRadius: "10px" }} data-speed="1.1" src={about6} alt="about image" />
                             </div>
                         </div>
                     </div>

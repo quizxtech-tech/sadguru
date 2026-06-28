@@ -1,5 +1,5 @@
-import banner1 from '../../../public/assets/img/shop-home/banner/banner-1.jpg';
-import banner2 from '../../../public/assets/img/shop-home/banner/banner-2.jpg';
+import banner1 from '../../../public/assets/img/new/sc3.png';
+import banner2 from '../../../public/assets/img/new/cu.png';
 import Image from 'next/image';
 import React from 'react';
 

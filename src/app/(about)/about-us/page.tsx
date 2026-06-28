@@ -1,14 +1,14 @@
-import ShopModernMain from '@/pages/homes/shop-modern/ShopModernMain';
+import AboutUsLightMain from '@/pages/about/about-us/AboutUsLightMain';
 import { Metadata } from 'next';
 import React from 'react';
 
 export const metadata: Metadata = {
-    title: "Agntix - Shop Modern Light",
+    title: "Sadguru Sales Agency - About Us",
 };
 
 const page = () => {
     return (
-        <ShopModernMain />
+        <AboutUsLightMain />
     );
 };
 

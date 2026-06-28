@@ -33,14 +33,17 @@ const CorporateAgencyHero = () => {
                         <div className="crp-hero-ptb">
                             <div className="crp-hero-title-box mb-35">
                                 <h2 className="crp-hero-title tp_fade_anim">
-                                    Grow your{" "}
+                                    Your Trusted{" "}
                                     <i className="box d-none d-sm-inline-flex">
                                         <span className="eye"></span>
                                         <span className="eye"></span>
                                     </i>
-                                    Brands Through{" "}
-                                    <span>Design Excellence</span> agency
+                                    Chemical &amp;{" "}
+                                    <span>Lubricant Supplier</span> in Kutch
                                 </h2>
+                                <p className="tp_fade_anim" data-delay=".3" style={{ color: "rgba(255,255,255,0.80)", fontSize: "18px", marginTop: "16px", lineHeight: "1.6" }}>
+                                    Serving industries since 2001 &nbsp;·&nbsp; Quality products &nbsp;·&nbsp; Reliable service
+                                </p>
                             </div>
                             {/* <div className="crp-hero-review-box d-flex align-items-center">
                                 <div className="crp-hero-avater tp_fade_anim" data-delay=".3">

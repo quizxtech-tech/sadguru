@@ -57,7 +57,7 @@ const CreativeStudioBrand = () => {
                                     </h4>
                                 </div>
                                 <div className="creative-work-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                    <Link href="/contact-us-light" className="tp-btn-black btn-green-light-bg pr-15">
+                                    <Link href="/contact-us" className="tp-btn-black btn-green-light-bg pr-15">
                                         <span className="tp-btn-black-filter-blur">
                                             <ButtonBlurFilter filterId="buttonFilter7" />
                                         </span>

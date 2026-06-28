@@ -1,5 +1,5 @@
-import shape from '../../../public/assets/img/new/images (9).jpeg';
-import thumb from '../../../public/assets/img/new/download.jpeg';
+import shape from '../../../public/assets/img/new/cu-icon.png';
+import thumb from '../../../public/assets/img/new/cu.png';
 import { ArrowThirteen } from '@/svg';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -13,8 +13,8 @@ const StartupAgencyChoose = () => {
                     <div className="col-lg-12">
                         <div className="st-choose-heading mb-70">
                             <span className="tp-section-subtitle st tp_fade_anim" data-delay=".3">{`// WHY CHOOSE US`}</span>
-                            <h3 className="tp-section-title-playfair mb-20 tp_fade_anim" data-delay=".5">WHY SHOULD YOU <br />
-                                <span>CHOOOSE US</span>
+                            <h3 className="tp-section-title-playfair mb-20 tp_fade_anim" data-delay=".5">WHY CHOOSE <br />
+                                <span>SADGURU SALES?</span>
                             </h3>
                         </div>
                     </div>
@@ -31,28 +31,27 @@ const StartupAgencyChoose = () => {
                     <div className="col-lg-4">
                         <div className="st-choose-list mb-30">
                             <ul>
-                                <li>+ Web interaction design</li>
-                                <li>+ Seamless Integration</li>
-                                <li>+ Generation Technology</li>
-                                <li>+ Facility Approach</li>
+                                <li>+ 25+ Years of Experience</li>
+                                <li>+ Quality Genuine Products</li>
+                                <li>+ Competitive Pricing</li>
+                                <li>+ Reliable Local Presence</li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-5">
                         <div className="st-choose-text-wrap mb-30">
-                            <p>Choosing the right marketing agency can make a big <br />
-                                difference. With so many options available, it’s essential <br />
-                                to find an agency that understands the unique needs <br />
-                                of new businesses. This article highlights some of <br />
-                                the top startup marketing agencies that can help your <br />
-                                business grow and succeed.</p>
+                            <p>Choosing the right supplier makes a big difference. <br />
+                                With over 25 years serving businesses in Bhuj and Kutch, <br />
+                                Sadguru Sales Agency offers quality industrial chemicals <br />
+                                and lubricants, competitive pricing, timely delivery, <br />
+                                and expert product guidance you can trust.</p>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-xl-4">
                         <div className="st-choose-shape tp-bounce">
-                            <Image src={shape} alt="shape" />
+                            <Image style={{ width: "100%", height: "auto" }} src={shape} alt="shape" />
                         </div>
                     </div>
                     <div className="col-xl-8">

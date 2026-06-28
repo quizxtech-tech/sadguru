@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import siteConfig from "@/config/admin";
 
 import contactLocation1 from "../../../public/assets/img/contact/contact-location-1.jpg";
 import contactLocation2 from "../../../public/assets/img/contact/contact-location-2.jpg";
@@ -19,8 +20,8 @@ const ContactLocationArea = () => {
         </>
       ),
       mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
+      phone: siteConfig.contact.phone,
+      email: siteConfig.contact.email,
     },
     {
       title: "Germany",
@@ -33,8 +34,8 @@ const ContactLocationArea = () => {
         </>
       ),
       mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
+      phone: siteConfig.contact.phone,
+      email: siteConfig.contact.email,
     },
     {
       title: "New Zealand",
@@ -47,8 +48,8 @@ const ContactLocationArea = () => {
         </>
       ),
       mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
+      phone: siteConfig.contact.phone,
+      email: siteConfig.contact.email,
     },
   ];
 

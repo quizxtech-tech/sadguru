@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollToPlugin);
 const BlogStandardBreadCrumb = ({ title = "Blog Classic", subTitle = "" }) => {
     return (
         <div className="tp-breadcrumb-area tp-breadcrumb-ptb">
-            <div className="container">
+            {/* <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xxl-12">
                         <div className="tp-breadcrumb-content text-center">
@@ -39,7 +39,7 @@ const BlogStandardBreadCrumb = ({ title = "Blog Classic", subTitle = "" }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

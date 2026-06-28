@@ -9,9 +9,8 @@ const ContactUsAbout = () => {
                     <div className="col-xl-10">
                         <div className="cn-contactform-support-bg d-flex align-items-center justify-content-center" style={{ backgroundImage: `url(${contactShape.src})` }}>
                             <div className="cn-contactform-support-text text-center">
-                                <span>Or, you can contact one of our studios
-                                    directly below. We aim to respond
-                                    within 24 hours.</span>
+                                <span>Have a product inquiry or need a bulk quote? We respond within 24 hours.<br />
+                                    Reach us at Hem Complex, Madhapar Highway, Bhuj – 370020, Kutch, Gujarat.</span>
                             </div>
                         </div>
                     </div>
