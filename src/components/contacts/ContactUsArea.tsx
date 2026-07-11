@@ -17,6 +17,7 @@ const ContactUsArea = () => {
       btnText: "View Location",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
+      extraClass: "",
     },
     {
       title: "Chat on WhatsApp",
@@ -27,6 +28,7 @@ const ContactUsArea = () => {
       btnText: "WhatsApp Us",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
+      extraClass: "",
     },
     {
       title: "Email Address",
@@ -37,6 +39,7 @@ const ContactUsArea = () => {
       btnText: "Email Us",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
+      extraClass: "",
     },
   ];
 
