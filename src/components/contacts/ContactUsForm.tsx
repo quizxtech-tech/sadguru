@@ -1,10 +1,26 @@
 import mapIcon from '../../../public/assets/img/contact/map-icon.svg';
 import Image from 'next/image';
 import React from 'react';
+import siteConfig from '@/config/admin';
 
 const ContactUsForm = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        const formData = new FormData(e.currentTarget);
+        const name = formData.get('name') as string;
+        const email = formData.get('email') as string;
+        const company = formData.get('subject') as string;
+        const message = formData.get('message') as string;
+
+        const text = `Name: ${name}
+Email: ${email}
+Company / Business Name: ${company || 'N/A'}
+Your Requirement / Inquiry: ${message}`;
+
+        const encodedText = encodeURIComponent(text);
+        const whatsappUrl = `${siteConfig.social.whatsapp}?text=${encodedText}`;
+        
+        window.open(whatsappUrl, '_blank');
     };
     return (
         <div id="down" className="tp-contact-us-form-ptb pt-60 pb-120">
@@ -29,13 +45,13 @@ const ContactUsForm = () => {
                                         <div className="col-lg-6">
                                             <div className="tp-contact-form-input mb-20">
                                                 <label>Full name*</label>
-                                                <input name="name" type="text" />
+                                                <input name="name" type="text" required />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="tp-contact-form-input mb-20">
                                                 <label>Email address*</label>
-                                                <input name="email" type="email" />
+                                                <input name="email" type="email" required />
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
@@ -48,12 +64,12 @@ const ContactUsForm = () => {
                                             <div className="tp-contact-form-input mb-20">
                                                 <label>Your Requirement / Inquiry*
                                                 </label>
-                                                <textarea name="message"></textarea>
+                                                <textarea name="message" required></textarea>
                                             </div>
                                             <div className="tp-contact-form-btn">
                                                 <button className="w-100" type="submit"><span>
-                                                    <span className="text-1">Send Message</span>
-                                                    <span className="text-2">Send Message</span>
+                                                    <span className="text-1">Send via WhatsApp</span>
+                                                    <span className="text-2">Send via WhatsApp</span>
                                                 </span>
                                                 </button>
                                                 <p className="ajax-response mt-5"></p>

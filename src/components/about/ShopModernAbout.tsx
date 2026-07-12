@@ -26,9 +26,9 @@ const ShopModernAbout = () => {
                     </div>
                     <div className="col-xl-6">
                         <div className="tp-shop-about-middle">
-                            <div className="tp-shop-about-circle-text text-center">
+                            {/* <div className="tp-shop-about-circle-text text-center">
                                 <Image src={circleText} alt="circle image" />
-                            </div>
+                            </div> */}
                             <div className="tp-shop-about-content text-center">
                                 <p>
                                     Quality industrial chemicals and lubricants, <br /> trusted by businesses

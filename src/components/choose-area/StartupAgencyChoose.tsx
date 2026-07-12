@@ -1,4 +1,4 @@
-import shape from '../../../public/assets/img/new/cu-icon.png';
+import shape from '../../../public/assets/img/new/guj png.png';
 import thumb from '../../../public/assets/img/new/cu.png';
 import { ArrowThirteen } from '@/svg';
 import Image from 'next/image';
@@ -11,7 +11,7 @@ const StartupAgencyChoose = () => {
             <div className="container container-1320">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="st-choose-heading mb-70">
+                        <div className="st-choose-heading mb-70 mt-70">
                             <span className="tp-section-subtitle st tp_fade_anim" data-delay=".3">{`// WHY CHOOSE US`}</span>
                             <h3 className="tp-section-title-playfair mb-20 tp_fade_anim" data-delay=".5">WHY CHOOSE <br />
                                 <span>SADGURU SALES?</span>

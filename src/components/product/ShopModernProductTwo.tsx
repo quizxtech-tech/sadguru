@@ -14,7 +14,7 @@ const ShopModernProductTwo = () => {
                 <div className="container-fluid">
                     <div className="row gx-15">
                         <div className="col-xl-6">
-                            <div className="tp-shop-product-banner">
+                            <div className="tp-shop-product-banner" style={{marginTop: "140px"}}>
                                 <Image style={{ width: "100%", height: "auto" }} className="w-100" src={product1} alt="product" />
                             </div>
                         </div>

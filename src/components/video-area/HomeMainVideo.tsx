@@ -12,7 +12,7 @@ const VIDEO_IMAGES = [
   {
     image: videoImgOne,
     alt: "Video background 1",
-    className: "d-none d-xl-block"
+    className: "d-none d-xl-block mb-25"
   },
   {
     image: videoImgTwo,
@@ -22,7 +22,7 @@ const VIDEO_IMAGES = [
   {
     image: videoImgThree,
     alt: "Video background 3",
-    className: "d-none d-xl-block mb-25"
+    className: "d-none d-xl-block"
   },
   {
     image: videoImgFour,
@@ -38,12 +38,12 @@ const VIDEO_IMAGES = [
 
 const HomeMainVideo = () => {
   return (
-    <section className="tp-video-area black-bg mt-120 fix">
+    <section className="tp-video-area fix" style={{ height: "100vh", maxHeight: "100vh" }}>
       <div className="container-fluid p-0">
         <div className="tp-video-thumb-wrap">
           {/* First image (hidden on mobile) */}
           <div className={`tp-video-thumb ${VIDEO_IMAGES[0].className}`}>
-            <Image style={{ width: "100%", height: "300px" }} src={VIDEO_IMAGES[0].image} alt={VIDEO_IMAGES[0].alt} />
+            <Image style={{ width: "100%", height: "100%" }} src={VIDEO_IMAGES[0].image} alt={VIDEO_IMAGES[0].alt} />
           </div>
 
           {/* Main video player (always visible) */}
@@ -54,7 +54,7 @@ const HomeMainVideo = () => {
           {/* Remaining images */}
           {VIDEO_IMAGES.slice(1).map((img, index) => (
             <div key={`video-img-${index}`} className={`tp-video-thumb ${img.className}`}>
-              <Image style={{ width: "100%", height: "300px" }} src={img.image} alt={img.alt} />
+              <Image style={{ width: "100%", height: "100%" }} src={img.image} alt={img.alt} />
             </div>
           ))}
         </div>

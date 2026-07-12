@@ -100,24 +100,24 @@
             @media #{$xs}{
                 padding: 0;
             }
-            &::after{
-                content: "";
-                position: absolute;
-                bottom: 32px;
-                right: -20px;
-                height: 40px;
-                width: 20px;
-                z-index: -1;
-                border-top-left-radius: 20px;
-                background-color: transparent;
-                box-shadow: 0px -18px 0 0 #0e0f11;
-                @media #{$md}{
-                    bottom: 22px;
-                }
-                @media #{$md,$xs}{
-                    display: none;
-                }
-            }
+            // &::after{
+            //     content: "";
+            //     position: absolute;
+            //     bottom: 32px;
+            //     right: -20px;
+            //     height: 40px;
+            //     width: 20px;
+            //     z-index: -1;
+            //     border-top-left-radius: 20px;
+            //     background-color: transparent;
+            //     box-shadow: 0px -18px 0 0 #0e0f11;
+            //     @media #{$md}{
+            //         bottom: 22px;
+            //     }
+            //     @media #{$md,$xs}{
+            //         display: none;
+            //     }
+            // }
         }
     }
     &-avater{

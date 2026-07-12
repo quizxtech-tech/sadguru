@@ -235,7 +235,7 @@ export const videoAnimation = () => {
         trigger: ".tp-video-area",
         scrub: 1,
         pin: true,
-        start: "top 40px",
+        start: "top 140px",
         end: "+=100%"
       }
     })

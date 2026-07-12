@@ -14,7 +14,7 @@ const ShopModernTestimonial = () => {
     };
 
     return (
-        <div className="tp-product-testimonial-ptb pb-100">
+        <div className="tp-product-testimonial-ptb pb-100 pt-100">
             <div className="container container-1750">
                 <div className="row">
                     <div className="col-lg-12">

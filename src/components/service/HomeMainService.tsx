@@ -48,10 +48,10 @@ const HomeMainService = () => {
                           </span>
                           <span className="tp-btn-black-filter d-inline-flex align-items-center"
                             style={{ filter: `url(#buttonFilter${service.id + 1})` }}>
-                            <span className="tp-btn-black-text">See Our Services</span>
+                            {/* <span className="tp-btn-black-text">See Our Services</span>
                             <span className="tp-btn-black-circle">
                               <ArrowSvg />
-                            </span>
+                            </span> */}
                           </span>
                         </Link>
                       </div>
