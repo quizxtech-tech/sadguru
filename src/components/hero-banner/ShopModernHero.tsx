@@ -34,11 +34,11 @@ const ShopModernHero = () => {
                                                 className="tp-hero-shop-slider-title"
                                                 dangerouslySetInnerHTML={{ __html: slide.title }}
                                             />
-                                            <div className="tp-hero-shop-btn">
+                                            {/* <div className="tp-hero-shop-btn">
                                                 <Link className="tp-btn-white-border coffee-bg" href="/shop">
                                                     Shop Now
                                                 </Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="col-xl-5">
