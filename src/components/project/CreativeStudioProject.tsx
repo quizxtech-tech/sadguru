@@ -58,7 +58,7 @@ const CreativeStudioProject = () => {
             <div className="creative-project-item mb-100">
                 <div className="creative-project-thumb anim-zoomin-wrap p-relative">
                     <div className="anim-zoomin not-hide-cursor" data-cursor="View<br/>Product">
-                        <Link className="cursor-hide" href="#" onClick={(e) => e.preventDefault()}>
+                        <Link className="cursor-hide" href="/product">
                             <Image style={{ width: "100%", height: "420px", objectFit: "contain" }} src={project.image} alt={project.title} />
                         </Link>
                     </div>
@@ -74,7 +74,7 @@ const CreativeStudioProject = () => {
                         <span>{project.client}</span>
                     </div>
                     <h4 className="creative-project-title-sm">
-                        <Link className="tp-line-white" href="#" onClick={(e) => e.preventDefault()}>
+                        <Link className="tp-line-white" href="/product">
                             {project.title}
                         </Link>
                     </h4>
