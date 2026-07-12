@@ -55,12 +55,6 @@ const mobileMenuData: MenuItem[] = [
         link: "/product",
         megaMenu: false,
     },
-    {
-        id: 5,
-        title: "Blog",
-        link: "/blog-standard-light",
-        megaMenu: false,
-    },
 ];
 
 export default mobileMenuData;

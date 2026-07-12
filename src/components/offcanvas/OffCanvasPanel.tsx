@@ -2,8 +2,8 @@ import offcanvas1 from "../../../public/assets/img/offcanvas/offcanvas-1.jpg";
 import offcanvas2 from "../../../public/assets/img/offcanvas/offcanvas-2.jpg";
 import offcanvas3 from "../../../public/assets/img/offcanvas/offcanvas-3.jpg";
 import offcanvas4 from "../../../public/assets/img/offcanvas/offcanvas-4.jpg";
-import logoBlack from '../../../public/assets/img/logo/logo-black.png';
-import logoWhite from '../../../public/assets/img/logo/logo-white.png';
+import logoBlack from '../../../public/assets/img/new/logo/SSA full logo.png';
+import logoWhite from '../../../public/assets/img/new/logo/SSA full logo.png';
 import PhotoProviderWrapper from '../shared/PhotoProviderWrapper';
 import { CrossIconTwo, DribbleTwo, InstagramSvg } from '@/svg';
 import MainMobileMenu from "../../layouts/subComponents/MainMobileMenu";
@@ -37,7 +37,7 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                 <div className="tp-offcanvas-wrapper @@class offcanvas-white-bg">
                     <div className="tp-offcanvas-top d-flex align-items-center justify-content-between">
                         <div className="tp-offcanvas-logo">
-                            <Link href="/">
+                            <Link href="/" onClick={() => setOpenOffcanvas(false)}>
                                 <Image className="logo-1" width={120} src={logoBlack} alt="logo-black" />
                                 <Image className="logo-2" width={120} src={logoWhite} alt="logo-white" />
                             </Link>
@@ -54,7 +54,7 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                             <p>Your Trusted Chemical & Lubricant Supplier in Kutch since 2001.</p>
                         </div>
                         <div className="tp-offcanvas-menu d-xl-none">
-                            <nav><MainMobileMenu /></nav>
+                            <nav><MainMobileMenu setOpenOffcanvas={setOpenOffcanvas} /></nav>
                         </div>
                         <div className="tp-offcanvas-gallery d-none d-xl-block">
                             <div className="row gx-2">

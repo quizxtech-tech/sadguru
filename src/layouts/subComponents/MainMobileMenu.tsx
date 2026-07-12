@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const MainMobileMenu = () => {
+interface MainMobileMenuProps {
+    setOpenOffcanvas?: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const MainMobileMenu: React.FC<MainMobileMenuProps> = ({ setOpenOffcanvas }) => {
     const [activeMenu, setActiveMenu] = useState<number | null>(null);
     const [activeSubmenu, setActiveSubmenu] = useState<number | null>(null);
 
@@ -34,14 +38,24 @@ const MainMobileMenu = () => {
         }
     };
 
+    const handleLinkClick = () => {
+        if (setOpenOffcanvas) {
+            setOpenOffcanvas(false);
+        }
+    };
+
     return (
         <>
             <ul>
                 {mobileMenuData.map((menuItem) => (
-                    <li key={menuItem.id} className={`has-dropdown ${activeMenu === menuItem.id ? 'active' : ''}`}>
+                    <li key={menuItem.id} className={menuItem.submenu || menuItem.megaMenu ? `has-dropdown ${activeMenu === menuItem.id ? 'active' : ''}` : ""}>
                         <Link href={menuItem.link} onClick={(e) => {
-                            e.preventDefault();
-                            toggleMenu(menuItem.id);
+                            if (menuItem.submenu || menuItem.megaMenu) {
+                                e.preventDefault();
+                                toggleMenu(menuItem.id);
+                            } else {
+                                handleLinkClick();
+                            }
                         }}>
                             {menuItem.title}
                         </Link>
@@ -56,7 +70,7 @@ const MainMobileMenu = () => {
                                                 <ul>
                                                     {column.links.map((link, linkIndex) => (
                                                         <li key={linkIndex}>
-                                                            <Link href={link.link}>
+                                                            <Link href={link.link} onClick={handleLinkClick}>
                                                                 {link.title}
                                                                 {link.badge && (
                                                                     <span className={getTagClass(link.badge)}>
@@ -90,6 +104,8 @@ const MainMobileMenu = () => {
                                             if (subItem.submenu) {
                                                 e.preventDefault();
                                                 toggleSubmenu(subIndex);
+                                            } else {
+                                                handleLinkClick();
                                             }
                                         }}>
                                             {subItem.title}
@@ -100,29 +116,16 @@ const MainMobileMenu = () => {
                                                 <ul className="tp-submenu submenu" style={{ display: `${activeSubmenu === subIndex ? 'block' : 'none'}` }}>
                                                     {subItem.submenu.map((nestedItem, nestedIndex) => (
                                                         <li key={nestedIndex}>
-                                                            <Link href={nestedItem.link}>{nestedItem.title}</Link>
+                                                            <Link href={nestedItem.link} onClick={handleLinkClick}>{nestedItem.title}</Link>
                                                         </li>
                                                     ))}
                                                 </ul>
-                                                {/* <button
-                                                    className={`tp-menu-close ${activeSubmenu === subIndex ? 'active' : ''}`}
-                                                    onClick={() => toggleSubmenu(subIndex)}
-                                                >
-                                                    <i className="fa-solid fa-plus"></i>
-                                                </button> */}
                                             </>
                                         )}
                                     </li>
                                 ))}
                             </ul>
                         )}
-
-                        {/* <button
-                            className={`tp-menu-close ${activeMenu === menuItem.id ? 'active' : ''}`}
-                            onClick={() => toggleMenu(menuItem.id)}
-                        >
-                            <i className="fa-solid fa-plus"></i>
-                        </button> */}
                     </li>
                 ))}
             </ul>
